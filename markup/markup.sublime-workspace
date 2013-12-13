@@ -1,0 +1,490 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"liv",
+				"LIVERELOAD_PORT"
+			],
+			[
+				"li",
+				"LIVERELOAD_PORT"
+			],
+			[
+				"js",
+				"jsFilesForRelease"
+			],
+			[
+				"out",
+				"outline"
+			],
+			[
+				"Di",
+				"DINPro-Medium"
+			],
+			[
+				"din",
+				"DINPro-Regular"
+			],
+			[
+				"DIN",
+				"DINPro-Light"
+			],
+			[
+				"bg",
+				"bg	background"
+			],
+			[
+				"init",
+				"initMenuForTouch"
+			],
+			[
+				"max",
+				"max-width"
+			],
+			[
+				"text",
+				"textMas"
+			],
+			[
+				"page",
+				"page_title"
+			],
+			[
+				"produc",
+				"product_id"
+			],
+			[
+				"op",
+				"op	opacity"
+			],
+			[
+				"o",
+				"op	opacity"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "Packages/Stylus/Stylus.sublime-build",
+	"command_palette":
+	{
+		"height": 392.0,
+		"selected_items":
+		[
+			[
+				"scr",
+				"Snippet: script-src"
+			],
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"remoev",
+				"Package Control: Remove Package"
+			]
+		],
+		"width": 471.0
+	},
+	"console":
+	{
+		"height": 126.0,
+		"history":
+		[
+			"import urllib.request,os; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); open(os.path.join(ipp, pf), 'wb').write(urllib.request.urlopen( 'http://sublime.wbond.net/' + pf.replace(' ','%20')).read())"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/E/Dropbox/Работа/BANG/markup/Gruntfile.js",
+		"/E/Dropbox/Работа/BANG/.git/info/exclude",
+		"/E/Dropbox/Работа/BANG/markup/dev/stylus/main.styl",
+		"/E/Dropbox/Работа/BANG/markup/package.json",
+		"/E/Dropbox/Работа/BANG/markup/dev/stylus/normalize.styl",
+		"/E/Dropbox/Работа/BANG/markup/dev/index.html",
+		"/E/Dropbox/Работа/BANG/markup/dev/pages/index.html",
+		"/E/Dropbox/Работа/BANG/markup/dev/html_blocks/bottom.html",
+		"/C/Users/Алексей/Downloads/izzet_mustafayev_poc-for-ctc-428db217ea31a787b9846f377a43c71980384235/poc-for-ctc/src/main/yo/Gruntfile.coffee",
+		"/C/Users/Алексей/Downloads/izzet_mustafayev_poc-for-ctc-428db217ea31a787b9846f377a43c71980384235/poc-for-ctc/src/main/yo/package.json",
+		"/E/Dropbox/Работа/BANG/markup/node_modules/connect-livereload/index.js",
+		"/E/Dropbox/Работа/BANG/markup/node_modules/grunt-contrib-watch/tasks/watch.js",
+		"/E/Dropbox/Работа/markup/dev/html_blocks/bottom.html",
+		"/E/Dropbox/Работа/markup/Gruntfile.js",
+		"/E/Dropbox/Работа/markup/dev/dev_js/script&main.js",
+		"/E/Dropbox/Работа/markup/dev/stylus/main.styl",
+		"/E/Dropbox/Работа/markup/dev/html/bottom.html",
+		"/E/Dropbox/Работа/markup/dev/html/head.html",
+		"/E/Dropbox/Работа/markup/dev/layouts/index.html",
+		"/E/работа/markup/Gruntfile.js",
+		"/E/работа/markup/package.json",
+		"/E/работа/markup/prod/index.html",
+		"/E/работа/markup/prod/js/script.min.js",
+		"/E/работа/markup/dev/js/main.js",
+		"/E/работа/markup/prod/css/styles.min.css",
+		"/E/работа/markup/dev/css/styles.css",
+		"/E/работа/markup/dev/index.html",
+		"/E/работа/markup/npm-debug.log",
+		"/E/работа/markup/node_modules/grunt-include-replace/tasks/includereplace.js",
+		"/E/работа/markup/dev/dev/layouts/index.html",
+		"/E/работа/markup/src/dev/layouts/index.html",
+		"/E/работа/markup/dev/dev_js/another&main.js",
+		"/E/работа/markup/dev/dev_js/main&main.js",
+		"/E/работа/markup/pathToResultCss",
+		"/E/работа/markup/dev/stylus/imports.styl",
+		"/E/работа/markup/dev/stylus/imports&styles.styl",
+		"/E/работа/markup/dev/stylus/main&styles.styl",
+		"/E/работа/markup/markup.sublime-project",
+		"/E/работа/markup/dev/html/bottom.html",
+		"/E/работа/markup/dev/html/head.html",
+		"/E/работа/markup/dev/layouts/index.html",
+		"/E/работа/markup/markup.sublime-workspace",
+		"/E/работа/markup/dev/stylus/styles&styles.styl",
+		"/E/работа/markup/dev/stylus/_normalize.styl",
+		"/E/работа/markup/dev/stylus/_normalize.css",
+		"/E/работа/markup/dev/package.json",
+		"/E/работа/markup/dev/Gruntfile.js",
+		"/E/работа/markup/dev/dev_js/main-main.js",
+		"/E/работа/markup/dev/dev_js/main_.main.js",
+		"/E/работа/markup/dev/stylus/normalize.css",
+		"/E/работа/markup/dev/dev_js/main.js",
+		"/Z/home/tires.ru/www/.htaccess",
+		"/Z/home/tires.ru/www/rasparovka/index.php",
+		"/Z/home/tires.ru/www/css/all.css",
+		"/D/Лёха/Работа/Прохацкий/css/fonts.styl",
+		"/D/Лёха/Работа/Прохацкий/css/styles.css",
+		"/D/Лёха/Работа/Прохацкий/js/jquery.main.js",
+		"/D/Лёха/Работа/Прохацкий/css/styles.styl",
+		"/D/Лёха/Работа/Прохацкий/stores.html",
+		"/D/Лёха/Работа/Прохацкий/contacts.html",
+		"/D/Лёха/Работа/Прохацкий/news.html",
+		"/D/Лёха/Работа/Прохацкий/index.html",
+		"/D/Лёха/Работа/Прохацкий/rent.html",
+		"/D/Лёха/Работа/Прохацкий/css/fonts.css",
+		"/C/Users/Алексей/Downloads/[FF] DIN Pro/DINPro-Black/fonts.css",
+		"/C/Users/Алексей/Downloads/[FF] DIN Pro/DINPro-Regular/fonts.css",
+		"/C/Users/Алексей/Downloads/[FF] DIN Pro/DINPro-Bold/fonts.css",
+		"/C/Users/Алексей/Downloads/[FF] DIN Pro/DINPro-Light/fonts.css",
+		"/C/Users/Алексей/Downloads/[FF] DIN Pro/DINPro-Medium/fonts.css",
+		"/D/Лёха/Работа/Прохацкий/magazines.html",
+		"/D/Лёха/Работа/Прохацкий/css/all.styl",
+		"/D/Лёха/Работа/Прохацкий/stylus/all.css",
+		"/D/Лёха/Работа/Прохацкий/stylus/all.styl",
+		"/Z/home/tires.ru/www/admin/templates/edit_products-rasparovka.php",
+		"/Z/home/tires.ru/www/js/admin.js",
+		"/Z/home/tires.ru/www/js/jquery.main.js",
+		"/Z/home/tires.ru/www/admin/templates/header.php",
+		"/Z/home/tires.ru/www/admin/rasparovka/index.php",
+		"/Z/home/tires.ru/www/admin/products/index.php",
+		"/Z/home/tires.ru/www/templates/header.php",
+		"/Z/home/tires.ru/www/products/index.php",
+		"/Z/home/tires.ru/www/admin/templates/start.php",
+		"/Z/home/tires.ru/www/admin/templates/footer.php",
+		"/Z/home/tires.ru/www/templates/start.php",
+		"/Z/home/tires.ru/www/templates/variables.php",
+		"/Z/home/tires.ru/www/templates/head.php",
+		"/C/Users/Алексей/Downloads/Свительскому/style.css",
+		"/C/Users/Алексей/Downloads/Свительскому/index.html",
+		"/D/Лёха/дельта клиент банк/USER0072701/transport.cer",
+		"/D/Лёха/дельта клиент банк/USER0072701/user0072701.cer",
+		"/D/Лёха/дельта клиент банк/USER0072701/user0072701.cer2",
+		"/D/Лёха/дельта клиент банк/USER0072701/user0072701.key",
+		"/D/Лёха/дельта клиент банк/USER0072701/user0072701.key2",
+		"/D/Лёха/дельта клиент банк/USER0072701/ca.cer",
+		"/E/kalesa db/kalesa_mysql_ukraine_com_ua.sql",
+		"/Z/home/tires.ru/www/templates/about.php",
+		"/Z/home/tires.ru/www/templates/contacts.php",
+		"/Z/home/tires.ru/www/about/index.php",
+		"/E/denwer/home/tires.ru/www/templates/footer.php",
+		"/Z/home/tires.ru/www/htaccess",
+		"/Z/home/angular/www/nekit/index.html",
+		"/Z/home/angular/www/nekit/txt.txt",
+		"/Z/home/tires.ru/www/hta",
+		"/C/Users/Алексей/Downloads/txt.xml",
+		"/Z/home/tires.ru/www/admin/templates/upload_image_brend.php",
+		"/Z/home/tires.ru/www/admin/templates/upload_image_news.php",
+		"/Z/home/tires.ru/www/admin/templates/upload_image_rasparovka.php",
+		"/Z/home/tires.ru/www/admin/templates/upload_image.php",
+		"/Z/home/tires.ru/www/js/jquery.client.js",
+		"/Z/home/tires.ru/www/contacts/index.php",
+		"/Z/home/tires.ru/www/admin/templates/edit_products.php",
+		"/Z/home/tires.ru/www/admin/templates/products_table_head.php",
+		"/Z/home/oleksii-pronyakin/www/js/main.js",
+		"/Z/home/oleksii-pronyakin/www/index.html",
+		"/Z/home/oleksii-pronyakin/www/costs.html",
+		"/Z/home/oleksii-pronyakin/www/css/style.css",
+		"/Z/home/oleksii-pronyakin/www/css/style.styl",
+		"/E/my_workplace/Sublime Text Build 3047 x64/Data/Packages/User/lre.sublime-snippet",
+		"/E/my_workplace/Sublime Text Build 3047 x64/Data/Packages/User/script-src.sublime-snippet",
+		"/C/Users/Алексей/node_modules/nib/lib/nodes/gradient.js"
+	],
+	"find":
+	{
+		"height": 34.0
+	},
+	"find_in_files":
+	{
+		"height": 90.0,
+		"where_history":
+		[
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"clean",
+			"ugli",
+			"clean",
+			"liverel",
+			"lrSnippet",
+			"livereload",
+			"/html",
+			"html",
+			"livereload:true",
+			"liverelo",
+			"35729",
+			"livere",
+			"connect",
+			"lrSnippet",
+			"livere",
+			"watch",
+			"htmlmin",
+			"jsFilesForRelease",
+			"htmlFilesForRelease",
+			"jsFilesForRelease",
+			"conca",
+			"\\",
+			"pathToStylusFiles",
+			"\\",
+			"+",
+			"sorting_query",
+			"лот 0.12",
+			"galle",
+			"h1",
+			"<figure class='categories__list__ico'>",
+			"breadcrumbs-list",
+			"<link href='http://fonts.googleapis.com/css?family=PT+Sans:400,700,400italic&subset=latin,cyrillic-ext' rel='stylesheet' type='text/css'>",
+			"h1",
+			"alt=\"\"></span>",
+			"span",
+			"<span><img",
+			"text",
+			"images",
+			"href=\"#\"",
+			"Взуття",
+			": 10;",
+			": 10;\\",
+			": 10",
+			"src=\"\"",
+			"nav",
+			"cheme",
+			"cheme__head",
+			"flours-scheme-",
+			"header",
+			"flours-scheme-holder",
+			"60",
+			"4s",
+			"0.4s",
+			"footer-nav",
+			"definition-list",
+			"footer",
+			"],{",
+			"isotope-item",
+			"isotope-holder",
+			"188px",
+			"div",
+			"188",
+			"LiveSport",
+			"page-bg",
+			"tags",
+			"categories-list",
+			"categories__lis",
+			"categories-list",
+			"teg",
+			"tag",
+			"div",
+			"h1",
+			">\n",
+			"1px",
+			"red",
+			"_keywords",
+			".holder",
+			"initEdit",
+			" дюймовые шины Б/У",
+			"\"",
+			">П",
+			"\"",
+			"title-holder",
+			"дюйм шины Б/У",
+			"дюймов<br/> шины Б/У",
+			"20",
+			"style.backgroundImage",
+			"500",
+			"0.5",
+			"1920",
+			"{\n",
+			"nextBg",
+			"0",
+			" class='bg'",
+			"transition",
+			"дюймовые",
+			"checkbox",
+			"[0-9]",
+			"$",
+			"letnie_shini",
+			"7",
+			"R13",
+			"7",
+			"R13",
+			"7",
+			"R13",
+			"7",
+			"R13",
+			"R18",
+			"7",
+			"R13",
+			"7",
+			"R13",
+			"7",
+			"R13",
+			"7",
+			"R13",
+			"7",
+			"R13",
+			"C_categoriya/",
+			"c_categoriya",
+			"/rasparovka/index.php?radius=",
+			"/products/index.php?radius_id=",
+			"R14",
+			",",
+			"protection",
+			"text",
+			"type[]"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"<link href='http://fonts.googleapis.com/css?family=PT+Sans:400,700,400italic,700italic&subset=latin,cyrillic-ext' rel='stylesheet' type='text/css'>",
+			"Олимпийский"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		},
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 23.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			],
+			[
+				1,
+				0,
+				2,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			0.549156259292,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 24.0
+	},
+	"project": "markup.sublime-project",
+	"replace":
+	{
+		"height": 42.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 150.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
