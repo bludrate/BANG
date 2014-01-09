@@ -1,0 +1,70 @@
+<header class="header">
+	@@include('top-panel.html')
+	<div class="content-wrapper">
+		<section class="header-info">
+			<div class="logo"><a href="#"><img src="@@img_path/logo.png" alt=""></a></div>
+			<div class="mini-cart">
+				<a href="#" class="mini-cart__opener">Ваша корзина</a>
+				<form action="#" class="mini-cart__drop">
+					<fieldset>
+						<ul class="mini-cart__list">
+							<li class="mini-cart__list-item">
+								<figure class="mini-cart__list-visual"><a href="#"><img src="@@temp_img_path/img13.jpg" alt=""></a></figure>
+								<div class="mini-cart__info">
+									<div class="mini-cart__name">АС центрального канала Yamaha NS-C444</div>
+									<div class="count-input count-input_mini-cart">
+										<input class="text-input" type="text" data-min="1"> <!-- data-max - for max -->
+										<a href="#" class="count-input__more">more</a>
+										<a href="#" class="count-input__less">less</a>
+									</div>
+									<strong class="mini-cart__price">1 830 грн.</strong>
+								</div>
+								<a href="#" class="mini-cart__delete">delete</a>
+							</li>
+							<li class="mini-cart__list-item">
+								<figure class="mini-cart__list-visual"><a href="#"><img src="@@temp_img_path/img14.jpg" alt=""></a></figure>
+								<div class="mini-cart__info">
+									<div class="mini-cart__name">Комплект акустики 5.0  HECO Victa Prime 265W</div>
+									<div class="count-input count-input_mini-cart">
+										<input class="text-input" type="text" data-min="1"> <!-- data-max - for max -->
+										<a href="#" class="count-input__more">more</a>
+										<a href="#" class="count-input__less">less</a>
+									</div>
+									<strong class="mini-cart__price">7 400 грн.</strong>
+								</div>
+								<a href="#" class="mini-cart__delete">delete</a>
+							</li>
+							<li class="mini-cart__list-item">
+								<figure class="mini-cart__list-visual"><a href="#"><img src="@@temp_img_path/img15.jpg" alt=""></a></figure>
+								<div class="mini-cart__info">
+									<div class="mini-cart__name">Активная настольная АС Ultralink UСube</div>
+									<div class="count-input count-input_mini-cart">
+										<input class="text-input" type="text" data-min="1"> <!-- data-max - for max -->
+										<a href="#" class="count-input__more">more</a>
+										<a href="#" class="count-input__less">less</a>
+									</div>
+									<strong class="mini-cart__price">5 130 грн.</strong>
+								</div>
+								<a href="#" class="mini-cart__delete">delete</a>
+							</li>
+						</ul>
+						<div class="mini-cart__total">
+							<span class="mini-cart__total-title">К оплате:</span>
+							<strong class="mini-cart__total-price">14 360 грн.</strong>
+						</div>
+						<div class="mini-cart__btns">
+							<a href="#" class="blue-btn">Оформить заказ</a>
+							<a href="#" class="light-gray-btn">Перейти к корзине</a>
+						</div>
+					</fieldset>
+				</form>
+			</div>
+			<!-- <a href="#" class="compare-btn"><span class="compare-btn__ico">compare</span>5</a> -->
+			<div class="header-info__phones">
+				<strong class="header-info__phone header-info__phone_main">(044) 221-83-93</strong>
+				<span class="header-info__phone">(096) 766-33-66</span>
+			</div>
+		</section>
+	</div>
+	@@include('nav.html')
+</header>

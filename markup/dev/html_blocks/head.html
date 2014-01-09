@@ -1,8 +1,24 @@
 <!DOCTYPE html>
-<html>
+<html class="@@html_class">
 <head>
 	<meta charset=utf-8 />
+
 	<title>@@title</title>
-	<link rel="stylesheet" href="@@styles_path"/>
+	<link rel="stylesheet" href="@@styles_path" />
+	<!--[if lte IE 8]>
+		<script type="text/javascript">
+			document.createElement('header');
+			document.createElement('nav');
+			document.createElement('section');
+			document.createElement('article');
+			document.createElement('aside');
+			document.createElement('footer');
+			document.createElement('figure');
+		</script>
+		<link rel="stylesheet" href="css/ie8.css" />
+	<![endif]-->
+	<!--[if lt IE 8]>
+		<link rel="stylesheet" href="css/ie7.css" />
+	<![endif]-->
 </head>
 <body>

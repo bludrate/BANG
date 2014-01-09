@@ -1,0 +1,61 @@
+.contacts {
+	position: relative;
+	&:after {
+		width: 40%;
+		right: 0;
+		background: $newsBg;
+		position: absolute;
+		content: '';
+		bottom: 0;
+		top: 0;
+	}
+	.action-promo + &{
+		margin-top: -19px;
+	}
+	&__aside {
+		float: right;
+		width: 308px;
+		margin-left: 100px;
+	}
+	&__info {
+		overflow: hidden;
+		padding-top: 38px;
+	}
+	&__dl {
+		margin: 0;
+		padding: 21px 15px 16px 0;
+		float: left;
+		width: 320px;
+	}
+	&__dt {
+		float: left;
+		width: 80px;
+		color: $gray;
+		margin-right: 5px;
+	}
+	&__dd {
+		letter-spacing: 1px;
+		overflow: hidden;
+		margin-bottom: 17px;
+		color: $darkColor1;
+		font-family: "helveticaneuecyrroman", helvetica, arial, sans-serif;
+	}
+	&__work-time {
+		overflow: hidden;
+		font:17px/20px "helveticaneuecyrroman", helvetica, arial, sans-serif;
+		margin: 0 0 30px;
+		border: 1px solid $blue;
+		color: $gray;
+		padding: 26px 0 11px 31px;
+		&-dt {
+			float: left;
+			width: 65px;
+			margin-right: 2px;
+		}
+		&-dd {
+			color: $darkColor2;
+			overflow: hidden;
+			margin: 0 0 16px;
+		}
+	}
+}

@@ -1,0 +1,79 @@
+.footer-nav {
+    border:solid $borderGray;
+    border-width: 1px 0;
+    padding: 31px 0 13px;
+    &__list {
+        overflow: hidden;
+        padding: 6px 0 0;
+        margin: 0;
+        list-style: none;
+        font: 13px/16px "helveticaneuecyrroman", helvetica,arial,sans-serif;
+        color: $darkColor1;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+        &-item {
+            float: left;
+            padding: 0 10px 20px 0;
+            white-space: normal;
+            overflow: hidden;
+            a {
+                color: $darkColor1;
+                text-decoration: none;
+                &:hover {
+                    color: $blue;
+                }
+            }
+            &_c1 {
+                width: 134px;
+            }
+            &_c2 {
+                width: 227px;
+            }
+            &_c3 {
+                width: 154px;
+            }
+            &_c4 {
+                width: 150px;
+            }
+        }
+    }
+}
+.footer-socials {
+    float: right;
+    list-style: none;
+    padding: 0;
+    margin: 0 85px 0 0;
+    &__item {
+        float: left;
+        margin: 0 0 0 19px;
+        a {
+            display: block;
+            border: 1px solid;
+            text-indent: -9999px;
+            overflow: hidden;
+            width: 28px;
+            height: 28px;
+        }
+        &_tw a {
+            border-color: #cceefb;
+            bg("social1.png", 50%,50%);
+            &:hover {
+                border-color: #00aced;
+            }
+        }
+        &_fb a {
+            border-color: #dadde9;
+            bg("social2.png", 50%,50%);
+            &:hover {
+                border-color: #455491;
+            }
+        }
+        &_vk a {
+            border-color: #d7dfe8;
+            bg("social3.png", 50%,50%);
+            &:hover {
+                border-color: #365e8c;
+            }
+        }
+    }
+}

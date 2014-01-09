@@ -1,0 +1,91 @@
+.page404 {
+	display: table;
+	width: 100%;
+	height: 100%;
+	body {
+		display: table-cell;
+		vertical-align: middle;
+		height: 100%;
+	}
+	&__content {
+		color: $darkColor1;
+		overflow: hidden;
+		width: $wrapperWidth;
+		margin: 0 auto;
+	}
+	&__visual {
+		float: left;
+		margin: 0 82px 0 0;
+	}
+	&__info {
+		overflow: hidden;
+		padding: 65px 0 2px;
+	}
+	&__logo {
+		margin: 0 0 71px;
+		img {
+			vertical-align: top;
+		}
+	}
+	h1 {
+		letter-spacing: 2px;
+		font: 26px/30px "helveticaneuecyrroman", Helvetica, arial, sans-serif;
+		margin: 0 0 14px;
+	}
+	&__description {
+		font-size: 16px;
+		line-height: 20px;
+		margin: 0 0 65px 2px;
+		letter-spacing: 1px;
+	}
+	&__nav {
+		&-title {
+			margin: 0 0 9px 2px;
+			font-size: 14px;
+			line-height: 18px;
+		}
+		&-list {
+			list-style: none;
+			padding: 10px 0 0;
+			margin: 0;
+			font: 12px/14px "helveticaneuecyrroman", Helvetica, arial, sans-serif;
+			color: $textColor;
+			text-transform: uppercase;
+			border-top: 1px solid $borderGray;
+			a {
+				color: $darkColor1;
+				text-decoration: none;
+				margin-right: 0;
+				&:hover {
+					color: $blue;
+				}
+			}
+		}
+		&-item{
+			float: left;
+			margin: 0 0 0 9px;
+			height: 12px;
+			padding: 0 0 0 9px;
+			border-left: 1px solid $borderGray;
+			&:first-child {
+				margin: 0;
+				padding: 0 0 0 5px;
+				border: none;
+			}
+		}
+	}
+}
+.nav-home {
+	width: 13px;
+	float: left;
+	margin-right: 4px;
+	height: 13px;
+	overflow: hidden;
+	text-indent: -9999px;
+	margin-top: -1px;
+	vertical-align: top;
+	bg("ico11.png");
+	&:hover {
+		background-position: 0 -87px;
+	}
+}

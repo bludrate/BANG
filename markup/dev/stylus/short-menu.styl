@@ -1,0 +1,79 @@
+.short-menu {
+	height: 60px;
+	position: fixed;
+	top: -60px;
+	left: -9999px;
+	transition: opacity 0.2s, left 0s 0.2s, top 0.2s;
+	width: 100%;
+	min-width: 1000px;
+	background: #fff;
+	opacity: 0;
+	z-index: 100;
+	border-bottom: 1px solid #b5b5b5;
+	border-bottom: 1px solid rgba(0,0,0,0.3);
+	&_active & {
+		transition:top 0.2s, opacity 0.2s;
+		opacity: 1;
+		left: 0;
+		top: 0;
+	}
+	&__logo {
+		float: left;
+		margin-top: 14px;
+	}
+	.mini-cart__opener {
+		float: right;
+		margin: 0 -5px 0 33px;
+		bg("ico08.png", 50%,50%,no-repeat, $blue);
+		width: 60px;
+		height: 60px;
+		text-indent: -9999px;
+		overflow: hidden;
+		padding: 0;
+		&:hover {
+			opacity: 0.9;
+		}
+	}
+	.nav__search-btn {
+		float: right;
+		width: 19px;
+		height: 19px;
+		margin: 20px 0 0;
+		background-image: url($pathToImg+ "/" + "ico10.png");
+		
+	}
+	.nav__list {
+		padding: 22px 0 0 20px;
+		float: right;
+		font: 14px/18px "helveticaneuecyrroman", helvetica,arial,sans-serif;
+		text-transform: uppercase;
+		letter-spacing: 1px;
+		&-item {
+			padding: 0;
+			margin: 0 0 0 13px;
+			&:first-child {
+				margin: 0;
+			}
+		}
+	}
+}
+.compare-btn {
+	float: right;
+	margin: 23px 0 0 33px;
+	color:$green;
+	font: 15px/18px "helveticaneuecyrroman", helvetica,arial,sans-serif;
+	text-decoration: none;
+	&:hover {
+		opacity: 0.9;
+	}
+	&__ico {
+		display: inline-block;
+		vertical-align: top;
+		width: 20px;
+		text-indent: -9999px;
+		margin: -1px 7px 0 0;
+		overflow: hidden;
+		height: 20px;
+		bg("ico09.png");
+	}
+}

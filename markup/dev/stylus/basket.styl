@@ -1,0 +1,116 @@
+.basket {
+	margin-bottom: 59px;
+	&__table {
+		width: 100%;
+		border-collapse: collapse;
+		margin-bottom: 45px;
+		th {
+			border: solid $borderGray;
+			font: 12px/14px "helveticaneuecyrroman", helvetica, arial, sans-serif;
+			padding-top: 11px;
+			padding-bottom: 12px;
+			text-transform: uppercase;
+			border-width: 1px 0;
+			color: $gray2;
+		}
+		tbody td {
+			padding-top: 26px;
+			padding-bottom: 52px;
+			vertical-align: middle;
+			border-bottom: 1px dotted $borderGray;
+			&:first-child {
+				padding-bottom: 30px;
+			}
+		}
+		tfoot td {
+			padding-top: 25px;	
+		}
+	}
+	&__product {
+		text-decoration: none;
+		color: $textColor;
+		display: inline-block;
+		vertical-align: top;
+		font-size: 15px;
+		line-height: 22px;
+		text-transform: uppercase;
+		bg("none.gif",0,0,repeat);
+		&:hover {
+			color: $blue;
+		}
+		&-visual {
+			display: inline-block;
+			vertical-align: middle;
+			margin: 0 26px 0 0;
+		}
+		&-name {
+			display: inline-block;
+			vertical-align: middle;
+			max-width: 265px;
+			padding-bottom: 14px;
+		}
+	}
+	&__foot-title {
+		font: 18px/22px "helveticaneuecyrroman", helvetica, arial, sans-serif;
+		color: $darkColor1;
+		text-align: right;
+		letter-spacing: 1px;
+		padding-right: 34px;
+	}
+	&__total-price {
+		padding-right: 21px;
+		text-align: center;
+		letter-spacing: 1px;
+		color: $blue;
+		font: 20px/24px "helveticaneuecyrmedium", helvetica, arial, sans-serif;
+	}
+	&__price {
+		letter-spacing: 1px;
+		text-align: center;
+		font: 16px/20px "helveticaneuecyrroman", helvetica, arial, sans-serif;
+	}
+	&__product-col {
+		text-align: left;
+		padding-left: 13px;
+		width: 420px;
+	}
+	&__sum {
+		text-align: center;
+		font: 18px/22px "helveticaneuecyrroman", helvetica, arial, sans-serif;
+		color: $blue;
+		letter-spacing: 1px;
+	}
+	&__number-col {
+		width: 150px;
+	}
+	&__price-col {
+		width: 174px;
+	}
+	&__sum-col{
+		width: 165px;
+	}
+	tbody td&__btn-holder {
+		text-align: center;
+		padding: 0px 0 20px 16px;
+	}
+	tbody td&__count {
+		text-align: center;
+		padding-left: 4px;
+		padding-bottom: 55px;
+	}
+	&__controls {
+		overflow: hidden;
+		.blue-btn,
+		.light-gray-btn {
+			height: 44px;
+			line-height: 44px;		
+		}
+		.blue-btn {
+			font-family: "helveticaneuecyrroman", helvetica, arial, sans-serif;;
+		}
+		&-right {
+			float: right;
+			margin-left: 40px;
+		}
+	}
+}

@@ -1,0 +1,140 @@
+.compare {
+	padding: 2px 135px 0 0;
+	position: relative;
+	&__prev,
+	&__next {
+		position: absolute;
+		left: 40px;
+		top: 103px;
+		width: 14px;
+		height: 27px;
+		z-index: 10;
+		bg("prev-next.png");
+		text-indent: -9999px;
+		overflow: hidden;
+		&:hover {
+			background-position: 0 100%;
+			
+		}
+	}
+	&__next {
+		right: 40px;
+		left: auto;
+		background-position: 100% 0;
+		&:hover {
+			background-position: 100% 100%;
+			
+		}
+	}
+	&__titles {
+		float: left;
+		text-align: right;
+		margin-right: 48px;
+		font: 12px/18px "helveticaneuecyrroman", helvetica, arial, sans-serif;
+		color: $gray;
+		text-transform: uppercase;
+		border-collapse: collapse;
+		opacity: 0;
+		td {
+			vertical-align: top;
+			width: 87px;
+			padding: 20px 0 16px;
+		}
+		&.ready {
+			opacity: 1;
+		}
+	}
+	&__frame {
+		overflow: auto;
+	}
+	&-list {
+		text-align: center;
+		color: $gray;
+		border-collapse: collapse;
+		font: 15px/18px "helveticaneuecyrroman", helvetica, arial, sans-serif;
+		&__description {
+			text-align: left;
+			font-size: 14px;
+		}
+		td {
+			vertical-align: top;
+			width: 215px;
+			border-top: 1px solid $borderGray;
+			padding: 20px 0 16px 38px;
+			&:first-child {
+				padding-left: 0;
+			}
+		}
+		& &__general {
+			padding: 0 0 31px 38px;
+			&:first-child {
+				padding-left: 0;
+			}
+			border: none;
+		}
+		&__remove-btn {
+			display: inline-block;
+			width: 13px;
+			height: 13px;
+			vertical-align: top;
+			bg("delete.png");
+			text-indent: -9999px;
+			overflow: hidden;
+			&:hover {
+				opacity: 0.85;
+			}
+		}
+		&__visual {
+			margin-bottom: 16px;
+			img {
+				vertical-align: top;
+			}
+		}
+		&__remove-holder{
+			margin-bottom: 16px;
+		}
+		&__name {
+			font: 16px/18px "helveticaneuecyrlight", helvetica, arial, sans-serif;
+			color: $textColor;
+			letter-spacing: 0.9px;
+			text-transform: uppercase;
+			margin-bottom: 13px;
+		}
+		&__price {
+			margin-bottom: 21px;
+			color: $blue;
+			letter-spacing: 1px;
+			font: 18px/20px "helveticaneuecyrroman", helvetica, arial, sans-serif;
+		}
+		&__brand{
+			td& {
+				padding-top: 15px;
+				padding-bottom: 14px;
+			}
+			&-visual {
+				height: 30px;
+				margin-bottom: 9px;
+				line-height: 30px;
+				a {
+					text-decoration: none;
+					opacity: 0.5;
+					&:hover {
+						opacity: 1;
+					}
+				}
+				img {vertical-align: middle;}
+			}
+			&-country {
+				font-size: 14px;
+			opacity: 0.8;
+			}
+		}
+		&__description td{
+			padding-left: 53px;
+			width: 200px;
+			&:first-child {
+				padding-left: 15px;
+			}
+		}
+	}
+}

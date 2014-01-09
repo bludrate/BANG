@@ -1,0 +1,42 @@
+.page404__content {
+  position: relative;
+  top: expression((body.offsetHeight-this.offsetHeight)/2 + "px");
+}
+
+.basket__product-visual,
+.basket__product,
+.basket__product-name,
+.blue-btn,
+.light-gray-btn,
+.light-gray-btn_print .btn-ico,
+.gray-btn,
+.gray-btn .btn-ico,
+.delete-btn,
+.count-input,
+.radio,
+.checkbox,
+.checkbox-list__item label,
+.inline-select,
+.inline-select__opener,
+.to-cart,
+.compare-btn__ico,
+.product__info-box,
+.product__price-through,
+.view-type-ico,
+.header-info__phone,
+.compare-list__remove-btn {
+  display: inline;
+}
+
+.brands-list__item {
+  width: 24.999999%;
+}
+
+.product-filters__row,
+.current-filters {
+  zoom: 1;
+}
+
+.checked {
+  display: none;
+}

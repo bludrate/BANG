@@ -1,0 +1,132 @@
+.last-news {
+	background: $newsBg;
+	padding-bottom: 33px;
+	&__holder {
+		overflow: hidden;
+	}
+}
+.side-news {
+	float: left;
+	padding: 0 52px 0 50px;
+	width: 400px;
+	&__date {
+		font: 16px/20px "helveticaneuecyrthin", helvetica, arial, sans-serif;
+		color: $gray;
+		margin: 0 0 9px 2px;
+		letter-spacing: 2px;
+	}
+	&__title {
+		font-size: 22px;
+		line-height: 30px;
+		text-transform: uppercase;
+		margin: 0 0 17px;
+		letter-spacing: 2px;
+		a {
+			color: $textColor;
+			text-decoration: none;
+			&:hover {
+				color: $blue;
+			}
+		}
+	}
+	&__visual {
+		float: left;
+		margin: 0 25px 0 -48px;
+	}
+	&__description {
+		font-size: 16px;
+		line-height: 26px;
+		padding: 31px 0 0;
+		overflow: hidden;
+	}
+}
+
+.big-news {
+	position: relative;
+	min-height: 280px;
+	margin-bottom: 35px;
+	&__visual {
+		position: absolute;
+		left: 0;
+		top: 0;
+		right: 0;
+		bottom: 0;
+		overflow: hidden;
+		img{
+			width: 100%;
+			height: auto;
+			min-height: 100%;
+		}
+	}
+	&__info {
+		width: 50%;
+		padding: 55px 0 37px 50px;
+		&-holder {
+			width: $wrapperWidth;
+			margin: 0 auto;
+			position: relative;
+			z-index: 2;
+		}
+	}
+	&__date {
+		color: $gray;
+		font: 20px/24px "helveticaneuecyrthin", Helvetica, arial, sans-serif;
+		margin: 0 0 12px -40px;
+		padding: 0 0 0 40px;
+		letter-spacing: 2px;
+		bg("ico05.png",0,50%)
+	}
+	&__title {
+		text-transform: uppercase;
+		letter-spacing: 3px;
+		margin-bottom: 22px;
+		font: 34px/48px "helveticaneuecyrthin", helvetica, arial, sans-serif;
+		a {
+			color: $textColor;
+			text-decoration: none;
+			&:hover {
+				color: $blue;
+			}
+		}
+	}
+	&__description {
+		font-size: 18px;
+		line-height: 28px;
+		color: $darkColor1;
+		min-height: 100px;
+	}
+}
+.small-news {
+	list-style: none;
+	padding: 0 0 0 4px;
+	margin: 0 0 -6px;
+	overflow: hidden;
+	&__item {
+		margin: 0 0 42px;
+	}
+	&__date {
+		font: 16px/20px "helveticaneuecyrthin", helvetica, arial, sans-serif;
+		color: $gray;
+		margin: 0 0 9px 2px;
+		letter-spacing: 2px;
+	}
+	&__title {
+		font-size: 18px;
+		line-height: 28px;
+		text-transform: uppercase;
+		margin: 0 0 17px;
+		letter-spacing: 2px;
+		a {
+			color: $textColor;
+			text-decoration: none;
+			&:hover {
+				color: $blue;
+			}
+		}
+	}
+	&__description {
+		color: $gray;
+		font-size: 15px;
+		line-height: 22px;
+	}
+}

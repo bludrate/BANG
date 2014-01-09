@@ -1,0 +1,126 @@
+.product-list {
+	max-width: $maxWidth;
+	margin: 0 auto 46px;
+	list-style: none;
+	padding: 0;
+	position: relative;
+	overflow: hidden;
+	&__item {
+		float: left;
+	}
+	&-btns {
+		text-align: center;
+	}
+}
+.product {
+	overflow: hidden;
+	position: relative;
+	width: 33.3333333%;
+	max-height: 369px;
+	&_nav {
+		height: 368px;
+		width: 286px;
+		float: right;
+		margin: -2px -2px 0 0;
+		.product__ico {
+			left: 9px;
+		}
+		.product__visual img {
+			width: auto;
+			height: auto;
+			min-height: 0;
+		}
+	}
+	&_w2 {
+		width: 66.666666%;
+	}
+	a {
+		text-decoration: none;
+	}
+	&__info {
+		position: absolute;
+		bottom: 33px;
+		text-align: center;
+		left: 10px;
+		right: 10px;
+		z-index: 5;
+		&_p2 {
+			width: 45%;
+			left: auto;
+			bottom: auto;
+			top: 84px;
+			right: 50px;
+		}
+		&-box {
+			display: inline-block;
+			vertical-align: top;
+			background:#fff;
+			background: rgba(255,255,255,0.95);
+			padding: 17px 25px 14px 25px;
+			margin-bottom: -12px;
+		}
+	}
+	&__title {
+		font-size: 16px;
+		line-height: 22px;
+		font-weight: normal;
+		display: block;
+		text-transform: uppercase;
+		margin: 0 0 11px;
+		color: $darkColor2;
+	}
+	.product_w2 &__title {
+		font-size: 18px;
+		line-height: 22px;
+		margin: 0 0 21px;
+	}
+	.product_w2 &__price {
+		font-size: 20px;
+		line-height: 24px;
+	}
+	&__price {
+		color: $blue;
+		font: 18px/22px "helveticaneuecyrroman", helvetica, arial, sans-serif;
+		&-through {
+			position: relative;
+			display: inline-block;
+			color: $gray2;
+			&:after {
+				content: '';
+				display: block;
+				position: absolute;
+				left: 0;
+				top: 0;
+				right: 0;
+				bottom: 0;
+				bg("line-through.png", 50%, 50%);
+			}
+		}
+		&-new { 
+			margin: 0 0 0 15px;
+		}
+	}
+	&__visual {
+		img {
+			width: 100%;
+			height: auto;
+		}
+	}
+	&__ico {
+		position: absolute;
+		left: 32px;
+		top: 26px;
+		text-indent: -9999px;
+		overflow: hidden;
+		&_sale {
+			width: 77px;
+			height: 77px;
+			bg("ico06.png");
+		}
+		&_new {
+			width: 76px;
+			height: 75px;
+			bg("ico07.png");
+		}
+	}
+}

@@ -1,1 +1,45 @@
-@import "nib";
+body {
+	color: $textColor;
+	font: 15px/18px "helveticaneuecyrlight", Helvetica, arial, sans-serif;
+	min-width: 1000px;
+	background:white;
+}
+a {
+	color: $blue;
+	&.no-link {
+		text-decoration: none;
+		color: $textColor;
+	}
+}
+.content-wrapper {
+	width: $wrapperWidth;
+	margin: 0 auto;
+}
+.content-holder {
+	margin: 0 0 80px;
+}
+.dot-title {
+	margin: 0 0 31px 17px;
+	padding:0 0 0 20px;
+	font-weight: normal;
+	letter-spacing: 3px;
+	font-size: 18px;
+	line-height: 22px;
+	text-transform: uppercase;
+	color: $darkColor1;
+	opacity: 0.9;
+	bg("ico04.png", 0, 50%);
+}
+h1 {
+	text-transform: uppercase;
+	color: $darkColor1;
+	margin: 0 0 18px;
+	letter-spacing: 4px;
+	font: 36px/40px "helveticaneuecyrthin", Helvetica, arial, sans-serif;
+}
+.hidden {
+	display: none;
+}
+.holder {
+	overflow: hidden;
+}
