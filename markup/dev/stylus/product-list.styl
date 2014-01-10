@@ -123,4 +123,70 @@
 			bg("ico07.png");
 		}
 	}
+	&__controls {
+		position: absolute;
+		z-index: 10;
+		top: 100px;
+		text-align: center;
+		width: 190px;
+		left: 50%;
+		display: none;
+		margin-left: -95px;
+	}
+	&:hover &__controls {
+		display: block;
+	}
+	&__hover {
+		position: absolute;
+		left: 0;
+		right: 0;
+		top: 0;
+		z-index: 5;
+		bottom: 0;
+		display: none;
+		background: #fff;
+		opacity: 0.8;
+	}
+	&:hover &__hover {
+		display: block;
+	}
+	.to-cart {
+		display: block;
+		text-align: left;
+		padding-left: 65px;
+		background-position: 28px 12px;
+		margin-bottom: 15px;
+	}
+	&__in-cart {
+		height: 48px;
+		font: 18px/48px "helveticaneuecyrroman",helvetica, arial, sans-serif;
+		color: $blue;
+		padding: 0 5px 0 39px;
+		display: block;
+		overflow: hidden;
+		text-overflow: ellipsis;
+		bg('ico19.png',11px,14px);
+		border: 1px solid $blue;
+		margin-bottom: 15px;
+	}
+	&__compare-btn,
+	&__in-compare {
+		display: block;
+		padding: 5px 0 5px 70px;
+		bg("ico18.png",32px,2px);
+		color: $textColor;
+		text-decoration: none;
+		font-size: 17px;
+		line-height: 18px;
+		text-align: left;
+	}
+	&__compare-btn:hover {
+		color: $blue;
+		background-position: 32px -76px;
+	}
+	&__in-compare {
+		opacity: 0.6;
+		padding-left: 60px;
+		background-position: 26px 2px;
+	}
 }

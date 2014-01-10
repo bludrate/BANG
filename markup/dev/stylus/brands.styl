@@ -30,14 +30,21 @@
             height: 200px;
             padding: 30px 0;
             text-decoration: none;
-            
+            border:1px solid;
+            border-color: $borderGray transparent transparent $borderGray;
+            margin-right: -1px;
+            &:hover {
+                border-color: $blue;
+            }
         }
         &__item {
             width: 25%;
             float: left;
-            margin: 0 0 0 -1px;
-            border:solid $borderGray;
-            border-width: 1px 0 0 1px;
+            height: 261px;
+            position: relative;
+            &:hover {
+                z-index: 3;
+            }
         }
         &__visual {
             height: 150px;

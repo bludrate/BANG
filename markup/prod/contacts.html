@@ -390,40 +390,43 @@
 	</a>
 </div>
 <section class="contacts">
-	<div class="holder content-wrapper">
-		<aside class="contacts__aside">
-				<div class="feedback">
-					<h2 class="feedback__title">У Вас есть вопрос, проблема <br/>
-				или идея?</h2>
-				</div>
-				<a href="#" class="blue-btn">Напишите письмо!</a>
-		</aside>
-		<section class="contacts__info">
-			<dl class="contacts__dl">
-				<dt class="contacts__dt">Телефон:</dt>
-					<dd class="contacts__dd"><div class="map-popup__phone-row">(044) 221-83-93</div><div class="gray map-popup__phone-row">(096) 766-33-66</div></dd>
-				<dt class="contacts__dt">Адрес:</dt>
-					<dd class="contacts__dd">г.Киев, <br/>
-	ул. Бориспольская, 11-А</dd>
-				<dt class="contacts__dt">Skype:</dt>
-					<dd class="contacts__dd"><a href="skype:BANG_AV" class="no-link">BANG_AV</a></dd>
-				<dt class="contacts__dt">E-mail:</dt>
-					<dd class="contacts__dd"><a href="mailto:info@bang.kiev.ua" class="no-link">info@bang.kiev.ua</a></dd>
-				
-				<dt class="contacts__dt">ICQ:</dt>
-					<dd class="contacts__dd"><a href="icq:BANG_AV" class="no-link">606-807-592</a></dd>
-			</dl>
-			<dl class="contacts__work-time">
-				<dt class="contacts__work-time-dt blue">Пн-Пт</dt>
-					<dd class="contacts__work-time-dd">10:00 - 19:00</dd>
-				<dt class="contacts__work-time-dt">Сб</dt>
-					<dd class="contacts__work-time-dd">11:00 - 16:00</dd>
-			</dl>
-		</section>
+	<div class="holder">
+		<div class="contacts__aside-bg">&nbsp;</div>
+		<div class="content-wrapper">
+			<aside class="contacts__aside">
+					<div class="contacts__ask">
+						<h2 class="contacts__ask-title">У Вас есть вопрос, проблема <br/>
+					или идея?</h2>
+						<a href="#" class="blue-btn">Напишите письмо!</a>
+					</div>
+			</aside>
+			<section class="contacts__info">
+				<dl class="contacts__dl">
+					<dt class="contacts__dt">Телефон:</dt>
+						<dd class="contacts__dd"><div class="map-popup__phone-row">(044) 221-83-93</div><div class="gray map-popup__phone-row">(096) 766-33-66</div></dd>
+					<dt class="contacts__dt">Адрес:</dt>
+						<dd class="contacts__dd">г.Киев, <br/>
+				ул. Бориспольская, 11-А</dd>
+					<dt class="contacts__dt">Skype:</dt>
+						<dd class="contacts__dd"><a href="skype:BANG_AV" class="no-link">BANG_AV</a></dd>
+					<dt class="contacts__dt">E-mail:</dt>
+						<dd class="contacts__dd"><a href="mailto:info@bang.kiev.ua" class="no-link">info@bang.kiev.ua</a></dd>
+					
+					<dt class="contacts__dt">ICQ:</dt>
+						<dd class="contacts__dd"><a href="icq:BANG_AV" class="no-link">606-807-592</a></dd>
+				</dl>
+				<dl class="contacts__work-time">
+					<dt class="contacts__work-time-dt blue">Пн-Пт</dt>
+						<dd class="contacts__work-time-dd">10:00 - 19:00</dd>
+					<dt class="contacts__work-time-dt">Сб</dt>
+						<dd class="contacts__work-time-dd">11:00 - 16:00</dd>
+				</dl>
+			</section>
+		</div>
 	</div>
 	<div class="contacts__map">
 		<img src="temp/map.jpg" width="100%" height="378">
-		<a href='#' class="map-bullet2">BANG</a>
+		<a href='#' class="map-bullet2" style="top: 168px;left: 773px;">BANG</a>
 	</div>
 </section>
 <nav class="menu">
@@ -529,14 +532,6 @@
 		<div class="creator__text">Создано в <a href="#">Студии Дмитрия Бабича</a></div>
 	</div>
 </footer>
-	<script src="js/libs/jquery-1.10.2.min.js"></script>
-	<script src="js/libs/sly.min.js"></script>
-	<script src="js/main.js"></script>
-	<!--[if lte IE 8]>
-		<script type="text/javascript" src="js/ie.js"></script>
-	<![endif]-->
-</body>
-</html>
 <nav class="short-menu" id="short-menu">
 	<div class="content-wrapper">
 		<strong class="short-menu__logo">
@@ -564,3 +559,46 @@
 		<a href="#" class="nav__search-btn">search</a>
 	</div>
 </nav>
+<div class="popup-holder">
+	<span class="popup-holder__bg">&nbsp;</span>
+	<div class="popup popup_feedback">
+	<a href="#" class="popup__close">close</a>
+	<h2 class="popup__title">У Вас есть вопрос, проблема или идея?</h2>
+	<form action="#" class='form'>
+		<div class="form__row">
+			<label class="input-holder">
+				<input type="text" class="input-field" placeholder="Ваше имя">
+			</label>
+		</div>
+		<div class="form__row">
+			<label class="input-holder">
+				<input type="text" class="input-field" placeholder="E-mail">
+			</label>
+		</div>
+		<div class="form__row">
+			<label class="input-holder">
+				<input type="text" class="input-field" placeholder="Тема сообщения">
+			</label>
+		</div>
+		<div class="form__row">
+			<div class="textarea-holder">
+				<textarea cols="30" rows="10" class="textarea" placeholder="Текст сообщения"></textarea>
+			</div>
+		</div>
+		<div class="form__btn-holder">
+			<div class="blue-btn">
+				Отправить
+				<input type="submit">
+			</div>
+		</div>
+	</form>
+</div>
+</div>
+	<script src="js/libs/jquery-1.10.2.min.js"></script>
+	<script src="js/libs/sly.min.js"></script>
+	<script src="js/main.js"></script>
+	<!--[if lte IE 8]>
+		<script type="text/javascript" src="js/ie.js"></script>
+	<![endif]-->
+</body>
+</html>
