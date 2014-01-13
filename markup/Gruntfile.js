@@ -2,7 +2,7 @@ var htmlFilesForRelease = {
        'prod/index.html': 'prod/index.html'
     },
     jsFiles = {
-       'dev/js/main.js':["dev/dev_js/ui&main.js","dev/dev_js/*&main.js"],
+       'dev/js/main.js':["dev/dev_js/init&main.js","dev/dev_js/*&main.js"],
        'dev/js/ie.js':["dev/dev_js/*&ie.js"]
     },
     jsFilesForRelease = {
@@ -69,7 +69,7 @@ module.exports = function(grunt) {
           prefix: '@@',
           suffix: '',
           globals: {
-            script_path: "js/main.min.js",
+            script_path: "js/script.min.js",
             styles_path: "css/styles.min.css",
             img_path: "img",
             temp_img_path:"temp"
@@ -168,6 +168,12 @@ module.exports = function(grunt) {
          cwd: "dev/js/libs/",
          src: ["**"],
          dest: "prod/js/libs/"
+      },
+      fonts:{
+        expand: true,
+         cwd: "dev/fonts/",
+         src: ["**"],
+         dest: 'prod/fonts/'
       }
     }
   });

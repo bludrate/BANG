@@ -3319,6 +3319,10 @@ tbody td.basket__count {
   padding: 20px 0 16px;
 }
 
+.compare__titles tr:first-child td {
+  padding: 0 0 31px;
+}
+
 .compare__titles.ready {
   opacity: 1;
 }
