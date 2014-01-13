@@ -1,14 +1,24 @@
-.last-news {
-	background: $newsBg;
-	padding-bottom: 33px;
-	&__holder {
-		overflow: hidden;
+.news{
+	padding: 31px 0 0;
+	&_last {
+		background: $newsBg;
+		padding: 0 0 33px;
 	}
-}
-.side-news {
-	float: left;
-	padding: 0 52px 0 50px;
-	width: 400px;
+	&__item {
+		margin-bottom: 58px;
+		padding-left: 48px;
+		overflow: hidden;
+		&_small {
+			margin-bottom: 42px;
+			padding-left: 0;
+		}
+		&_small + & {
+			padding-top: 31px;
+		}
+		&_small + &_small{
+			padding-top: 0;
+		}
+	}
 	&__date {
 		font: 16px/20px "helveticaneuecyrthin", helvetica, arial, sans-serif;
 		color: $gray;
@@ -24,10 +34,16 @@
 		a {
 			color: $textColor;
 			text-decoration: none;
+			display: inline-block;
 			&:hover {
 				color: $blue;
 			}
 		}
+	}
+	&__item_small &__title {
+		font-size: 18px;
+		line-height: 28px;
+		margin: 0 0 17px;
 	}
 	&__visual {
 		float: left;
@@ -36,11 +52,31 @@
 	&__description {
 		font-size: 16px;
 		line-height: 26px;
-		padding: 31px 0 0;
+		padding-top: 31px;
+		overflow: hidden;
+		color: $gray;
+	}
+	&__item_small &__description {
+		font-size: 15px;
+		line-height: 22px;
+		padding-top: 0;
+	}
+	&__column {
+		float: left;
+		margin-left: 53px;
+		width: 450px;
+		&:first-child {
+			margin-left: 0;
+		}
+	}
+	&__holder {
 		overflow: hidden;
 	}
+	&__btns {
+		text-align: center;
+		padding: 30px;
+	}
 }
-
 .big-news {
 	position: relative;
 	min-height: 280px;
@@ -94,39 +130,5 @@
 		line-height: 28px;
 		color: $darkColor1;
 		min-height: 100px;
-	}
-}
-.small-news {
-	list-style: none;
-	padding: 0 0 0 4px;
-	margin: 0 0 -6px;
-	overflow: hidden;
-	&__item {
-		margin: 0 0 42px;
-	}
-	&__date {
-		font: 16px/20px "helveticaneuecyrthin", helvetica, arial, sans-serif;
-		color: $gray;
-		margin: 0 0 9px 2px;
-		letter-spacing: 2px;
-	}
-	&__title {
-		font-size: 18px;
-		line-height: 28px;
-		text-transform: uppercase;
-		margin: 0 0 17px;
-		letter-spacing: 2px;
-		a {
-			color: $textColor;
-			text-decoration: none;
-			&:hover {
-				color: $blue;
-			}
-		}
-	}
-	&__description {
-		color: $gray;
-		font-size: 15px;
-		line-height: 22px;
 	}
 }

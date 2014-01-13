@@ -1,0 +1,60 @@
+.gallery {
+	position: relative;
+	padding-bottom: 77px;
+	overflow: hidden;
+	&__holder {
+		width: $wrapperWidth;
+		margin: 0 auto;
+	}
+	&__frame {
+		position: relative;
+		padding-bottom: 7px;
+	}
+	&__list {
+		position: relative;
+		list-style: none;
+		overflow: hidden;
+		margin: 0;
+		padding: 0;
+	}
+	&__item {
+		float: left;
+		position: relative;
+		opacity: 0.6;
+		&_active, &:hover {
+			opacity: 1;
+		}
+		img {
+			vertical-align: top;
+		}
+	}
+	&__switchers {
+		text-align: center;
+		font-size: 0;
+		line-height: 0;
+		&-item {
+			display: inline-block;
+			vertical-align: top;
+			position: relative;
+			opacity: 0.6;
+			margin: -2px;
+			&_active {
+				opacity: 1;
+				a {
+					padding: 3px;
+					border: 1px solid $blue;
+				}
+			}
+			&:hover{
+				opacity: 1;
+			}
+			a {
+				display: block;
+				padding: 4px;
+			}
+			img {
+				vertical-align: top;
+			}
+		}
+	}
+}

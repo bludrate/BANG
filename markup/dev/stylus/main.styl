@@ -36,6 +36,15 @@ a {
 		}
 	}
 }
+.content-text {
+	font-size: 16px;
+	line-height: 28px;
+	padding: 0 0 20px;
+	color:$gray;
+	p {
+		margin: 0 0 28px;
+	}
+}
 .text-holder {
 	padding: 0 0 18px;
 	p {
@@ -76,4 +85,23 @@ h2 {
 }
 .no-bold {
 	font-weight: normal;
+}
+.ico-link {
+	margin: 0 0 18px;
+	&:after {
+		content: '';
+		display: block;
+		clear: both;
+	}
+	a {
+		float: left;
+		padding: 2px 0 2px 39px;
+		color:$blue;
+		line-height: 22px;
+		text-decoration: none;
+		bg("ico22.png");
+		&:hover {
+			text-decoration: underline;
+		}
+	}
 }

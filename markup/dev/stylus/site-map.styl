@@ -1,0 +1,56 @@
+.site-map {
+    &.content-border {
+        padding-top: 30px;
+    }
+    &__general {
+        list-style: none;
+        padding: 0;
+        margin: 0 0 51px;
+        font: 17px/37px "helveticaneuecyrroman", helvetica, arial, sans-serif;
+        color: $darkColor1;
+        text-transform: uppercase;
+        &-item a{
+            display: inline-block;
+            vertical-align: top;
+            color: $darkColor1;
+            text-decoration: none;
+            &:hover {
+                color: $blue;
+            }
+        }
+    }
+    &__category {
+        margin: 0 0 44px;
+        &-title {
+            margin: 0 0 5px;
+            font: 17px/18px "helveticaneuecyrroman", helvetica, arial, sans-serif;
+            text-transform: uppercase;
+            color: $darkColor1;
+        }
+    }
+    &__menu {
+        margin: 0;
+        padding: 0;
+        list-style: none;
+        line-height: 30px;
+        &-item a {
+            display: inline-block;
+            vertical-align: top;
+            color: $gray;
+            text-decoration: none;
+            &:hover {
+                color: $blue;
+            }
+        }
+        &-holder {
+            border-top: 1px solid $borderGray;
+            padding: 7px 0 0;
+            overflow: hidden;
+        }
+    }
+    &__column {
+        float: left;
+        width: 390px;
+        margin-right: 15px;
+    }
+}
