@@ -1,0 +1,153 @@
+.sale {
+	.promo-slider {
+		margin-bottom: 0;
+	}
+	&__btns {
+		text-align: center;
+	}
+	&-item {
+		margin: 0 0 10px;
+		position: relative;
+		overflow: hidden;
+		&__bg {
+			position: absolute;
+			width: 100%;
+			right: 0;
+			height: auto;
+			min-height: 100%;
+			top: 0;
+		}
+		&__title {
+			font: 24px/32px "helveticaneuecyrthin", helvetica, arial, sans-serif;
+			text-transform: uppercase;
+			letter-spacing: 4.5px;
+			margin-bottom: 12px;
+		}
+		&__name {
+			letter-spacing: 3.5px;
+			text-transform: uppercase;
+			margin-bottom: 34px;
+			font: 40px/60px "helveticaneuecyrthin", helvetica, arial, sans-serif;
+		}
+		&__description{
+			font-size: 18px;
+			line-height: 30px;
+			letter-spacing: 0.9px;
+			padding-left: 4px;
+			strong {
+				font-weight: normal;
+				font-family: "helveticaneuecyrroman", helvetica, arial, sans-serif;
+			}
+		}
+		&__info {
+			position: relative;
+			z-index: 2;
+			width: 700px;
+			padding:69px ($wrapperWidth - 700px+6px) 78px 0;
+			margin: 0 auto;
+		}
+	}
+	&-list {
+		list-style: none;
+		padding: 0 0 20px;
+		margin: 0;
+		&__item {
+			overflow: hidden;
+			position: relative;
+		}
+		&__visual {
+			position: absolute;
+			right: 0;
+			top: 0;
+			width: 100%;
+			height: auto;
+			min-height: 100%;
+			img {
+
+			}
+		}
+		&__info {
+			position: relative;
+			z-index: 2;
+			width: 615px;
+			padding: 39px ($wrapperWidth - 615px) 44px 0;
+			margin: 0 auto;
+		}
+		&__title {
+			margin: 0 0 17px;
+			text-transform: uppercase;
+			letter-spacing: 3.5px;
+			font: 18px/22px "helveticaneuecyrthin", helvetica, arial, sans-serif;
+		}
+		&__name {
+			text-transform: uppercase;
+			font-size: 24px;
+			line-height: 36px;
+			margin: 0 0 32px;
+			letter-spacing: 2.2px;
+			a {
+				text-decoration: none;
+				color:$textColor;
+				&:hover {
+					color:$blue;
+				}
+			}
+		}
+		&__text {
+			font-size: 16px;
+			line-height: 24px;
+			color:#644d4f;
+			overflow: hidden;
+			strong {
+				font-weight: normal;
+				font-family: "helveticaneuecyrroman", helvetica, arial, sans-serif;
+			}
+		}
+		&__more {
+			float: right;
+			text-transform: uppercase;
+			margin-left: 30px;
+			font-size: 14px;
+			height: 42px;
+			letter-spacing: 0.6px;
+			padding: 0 13px;
+			line-height: 42px;
+		}
+		&__price {
+			font: 36px/40px "helveticaneuecyrroman", helvetica, arial, sans-serif;
+			color:$blue;
+			letter-spacing: 2px;
+			&_old {
+				color:#96abb9;
+				display: inline-block;
+				margin-right: 21px;
+				position: relative;
+				&:after {
+					position: absolute;
+					left: 0;
+					top: 0;
+					right: 0;
+					bottom: 0;
+					content: '';
+					bg("line-through2.png", 50%,50%);
+				}
+			}
+		}
+		&__item_type2 {
+			width: $wrapperWidth;
+			border-top: 1px solid $borderGray;
+			margin: -1px auto 1px;
+			padding: 38px 0 40px;
+		}
+		&__item_type2 &__name {
+			font-size: 20px;
+			line-height: 28px;
+			margin: 0;
+		}
+		&__item_type2 &__price {
+			padding-top: 20px;
+			font-size: 27px;
+			line-height: 32px;
+		}
+	}
+}

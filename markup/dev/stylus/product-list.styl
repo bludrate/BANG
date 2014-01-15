@@ -186,7 +186,149 @@
 	}
 	&__in-compare {
 		opacity: 0.6;
+		cursor: default;
 		padding-left: 60px;
 		background-position: 26px 2px;
+	}
+}
+.h-product-list {
+	list-style: none;
+	padding: 0;
+	margin: 0 auto;
+	max-width: $wrapperWidth;
+	.category_left-filters & {
+		padding-left: 20px;
+		width: 754px;
+	}
+	&_sale &__holder {
+		width: auto;
+		float: left;
+	}
+	&__holder {
+		width: 480px;
+		float: left;
+	}
+	&__visual{
+		float: left;
+		width: 190px;
+		margin-right: 35px;
+	}
+	&__item {
+		border-top: 1px solid $borderGray;
+		position: relative;
+		overflow: hidden;
+		padding: 47px 0 43px;
+		&:first-child {
+			border: none;
+		}
+	}
+	&__bg {
+		position: absolute;
+		left: 0;
+		top: 0;
+		width: 100%;
+		min-height: 100%;
+		height: auto;
+	}
+	&_sale &__info {
+		margin: 0 auto;
+		position: relative;
+		z-index: 2;
+		padding: 0 0 0 ($wrapperWidth - 670px + 4px);
+		width: 670px;
+	}
+	&__info {
+		overflow: hidden;
+	}
+	&__controls {
+		float: right;
+		width: 173px;
+		margin: 27px 0 0 10px;
+		.category_left-filters &  {
+			float: left;
+			margin-left: 0;
+		}
+	}
+	&__name {
+		margin-bottom: 19px;
+		font-size: 20px;
+		line-height: 28px;
+		letter-spacing: 0.8px;
+		text-transform: uppercase;
+	}
+	&__price {
+		font-size: 22px;
+		margin-right: 10px;
+		letter-spacing: 1px;
+		color:$blue;
+		&_old {
+			color:#96abb9;
+			display: inline-block;
+			position: relative;
+			&:after {
+				left: 0;
+				top: 0;
+				right: 0;
+				bottom: 0;
+				position: absolute;
+				content: '';
+				bg("line-through2.png", 50%,50%);
+			}
+		}
+		&-title {
+			margin-left: 20px;
+		}
+		&-holder {
+			font: 22px/26px "helveticaneuecyrroman", helvetica, arial, sans-serif;
+			overflow: hidden;
+			margin-bottom: 22px;
+		}
+	}
+	.to-cart {
+		display: block;
+		text-align: left;
+		padding-left: 56px;
+		background-position: 18px 12px;
+		margin-bottom: 15px;
+	}
+	.product__compare-btn,
+	.product__in-compare {
+		background-position: 12px 2px;
+		padding-left: 54px;
+	}
+	.product__compare-btn:hover {
+		background-position: 12px -76px;
+		
+	}
+	&__owner {
+		margin-bottom: 23px;
+		line-height: 22px;
+		letter-spacing: 0.5px;
+		&-title {
+			margin: 0 10px 0 0;
+			color:$gray;
+			font: 15px/22px "helveticaneuecyrthin", helvetica, arial, sans-serif;
+		}
+		img {
+			position: relative;
+			top: 1px;
+		}
+		&-name {
+			margin-right: 10px;
+			font-size: 20px;
+			font:20px/22px "helveticaneuecyrroman", helvetica, arial, sans-serif;
+		}
+		&-country {
+			color:$gray;
+			font:16px/22px "helveticaneuecyrroman", helvetica, arial, sans-serif;
+		}
+	}
+	&_sale &__description{
+		width: auto;
+	}
+	&__description {
+		letter-spacing: 0.3px;
+		font-size: 14px;
+		line-height: 22px;
 	}
 }

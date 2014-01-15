@@ -105,3 +105,28 @@ h2 {
 		}
 	}
 }
+.orange-head {
+	background: #ff8400;
+	margin-top: -19px;
+	padding: 19px 0 6px;
+	&,h1,.breadcrumbs, .breadcrumbs a {
+		color: #fff;
+	}
+	.breadcrumbs a:hover {
+		color: $textColor;
+	}
+	.nav-home {
+		background-position: 0 -187px;
+		&:hover {
+			background-position: 0 0;
+			
+		}
+	}
+}
+.orange-border-head {
+	margin-bottom:-4px;
+	padding-bottom:4px;
+	position: relative;
+	z-index: 5;
+	bg("decor.png",0, 100%,repeat-x);
+}
