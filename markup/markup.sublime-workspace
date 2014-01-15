@@ -92,90 +92,66 @@
 	"buffers":
 	[
 		{
-			"file": "dev/html_blocks/article.html",
+			"file": "dev/html_blocks/sale-one.html",
 			"settings":
 			{
-				"buffer_size": 5944,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "dev/html_blocks/brand.html",
-			"settings":
-			{
-				"buffer_size": 12324,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "dev/html_blocks/compare.html",
-			"settings":
-			{
-				"buffer_size": 5144,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "dev/dev_js/compare&main.js",
-			"settings":
-			{
-				"buffer_size": 1251,
+				"buffer_size": 3341,
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "Gruntfile.js",
+			"file": "dev/pages/search-results.html",
 			"settings":
 			{
-				"buffer_size": 4803,
+				"buffer_size": 409,
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "dev/pages/compare.html",
+			"file": "dev/html_blocks/search-results.html",
 			"settings":
 			{
-				"buffer_size": 402,
+				"buffer_size": 9925,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "dev/html_blocks/category_left-filters.html",
+			"settings":
+			{
+				"buffer_size": 10060,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "dev/html_blocks/bottom.html",
+			"file": "dev/html_blocks/product-list_horizontal.html",
 			"settings":
 			{
-				"buffer_size": 244,
+				"buffer_size": 2317,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "dev/dev_js/ui-elems&main.js",
+			"file": "dev/html_blocks/products-catalogue.html",
 			"settings":
 			{
-				"buffer_size": 11829,
+				"buffer_size": 6673,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "dev/html_blocks/sale.html",
+			"settings":
+			{
+				"buffer_size": 8002,
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "dev/stylus/compare.styl",
+			"file": "dev/stylus/variables.styl",
 			"settings":
 			{
-				"buffer_size": 2496,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "dev/stylus/article.styl",
-			"settings":
-			{
-				"buffer_size": 2190,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "dev/stylus/main.styl",
-			"settings":
-			{
-				"buffer_size": 1683,
+				"buffer_size": 540,
 				"line_ending": "Windows"
 			}
 		},
@@ -183,15 +159,23 @@
 			"file": "dev/stylus/ui.styl",
 			"settings":
 			{
-				"buffer_size": 14276,
+				"buffer_size": 14536,
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "dev/stylus/brand.styl",
+			"file": "dev/stylus/breadcrumbs.styl",
 			"settings":
 			{
-				"buffer_size": 1993,
+				"buffer_size": 392,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "dev/stylus/sale.styl",
+			"settings":
+			{
+				"buffer_size": 2902,
 				"line_ending": "Windows"
 			}
 		},
@@ -199,23 +183,15 @@
 			"file": "dev/stylus/product-list.styl",
 			"settings":
 			{
-				"buffer_size": 3169,
+				"buffer_size": 5667,
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "dev/stylus/product-filters.styl",
+			"file": "dev/stylus/main.styl",
 			"settings":
 			{
-				"buffer_size": 7163,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "dev/stylus/gallery.styl",
-			"settings":
-			{
-				"buffer_size": 857,
+				"buffer_size": 2100,
 				"line_ending": "Windows"
 			}
 		}
@@ -260,17 +236,35 @@
 	},
 	"file_history":
 	[
-		"/E/Dropbox/work/BANG/markup/prod/basket.html",
+		"/E/Dropbox/work/BANG/markup/dev/pages/sale.html",
+		"/E/Dropbox/work/BANG/markup/dev/pages/sale-one.html",
+		"/E/Dropbox/work/BANG/markup/dev/stylus/product-list.styl",
+		"/E/Dropbox/work/BANG/markup/dev/stylus/styles.styl",
+		"/E/Dropbox/chrome user scripts/vk loader/vk_loader.css",
+		"/E/Dropbox/chrome user scripts/vk loader/vk_loader.user.js",
+		"/E/Dropbox/work/BANG/markup/dev/html_blocks/sale-list.html",
+		"/E/Dropbox/work/BANG/markup/dev/pages/sale-list.html",
+		"/E/Dropbox/work/BANG/markup/dev/pages/brands.html",
+		"/E/Dropbox/work/BANG/markup/dev/stylus/gallery.styl",
+		"/E/Dropbox/work/BANG/markup/dev/stylus/product-filters.styl",
+		"/E/Dropbox/work/BANG/markup/dev/stylus/article.styl",
+		"/E/Dropbox/work/BANG/markup/dev/stylus/main.styl",
+		"/E/Dropbox/work/BANG/markup/dev/stylus/ui.styl",
+		"/E/Dropbox/work/BANG/markup/dev/stylus/brand.styl",
+		"/E/Dropbox/work/BANG/markup/dev/stylus/compare.styl",
+		"/E/Dropbox/work/BANG/markup/dev/html_blocks/bottom.html",
+		"/E/Dropbox/work/BANG/markup/dev/pages/compare.html",
+		"/E/Dropbox/work/BANG/markup/dev/html_blocks/article.html",
+		"/E/Dropbox/work/BANG/markup/dev/html_blocks/brand.html",
+		"/E/Dropbox/work/BANG/markup/dev/html_blocks/compare.html",
+		"/E/Dropbox/work/BANG/markup/dev/dev_js/compare&main.js",
 		"/E/Dropbox/work/BANG/markup/Gruntfile.js",
+		"/E/Dropbox/work/BANG/markup/prod/basket.html",
 		"/E/Dropbox/work/BANG/markup/dev/dev_js/short-menu&main.js",
 		"/E/Dropbox/work/BANG/markup/dev/dev_js/script&main.js",
 		"/E/Dropbox/work/BANG/markup/dev/dev_js/init&main.js",
 		"/E/Dropbox/work/BANG/markup/dev/pages/brand.html",
-		"/E/Dropbox/work/BANG/markup/dev/stylus/main.styl",
-		"/E/Dropbox/work/BANG/markup/dev/stylus/styles.styl",
-		"/E/Dropbox/work/BANG/markup/dev/pages/brands.html",
 		"/E/Dropbox/work/BANG/markup/dev/stylus/popups.styl",
-		"/E/Dropbox/work/BANG/markup/dev/stylus/ui.styl",
 		"/E/Dropbox/work/BANG/markup/dev/stylus/delivery.styl",
 		"/E/Dropbox/work/BANG/markup/dev/stylus/menu.styl",
 		"/E/Dropbox/work/BANG/markup/dev/stylus/colors.styl",
@@ -285,16 +279,13 @@
 		"/E/Dropbox/work/BANG/markup/dev/dev_js/polifils&ie.js",
 		"/E/Dropbox/work/BANG/markup/dev/html_blocks/slider.html",
 		"/E/Dropbox/work/BANG/markup/dev/dev_js/fixes&ie.js",
-		"/E/Dropbox/work/BANG/markup/dev/html_blocks/bottom.html",
 		"/E/Dropbox/work/BANG/markup/dev/html_blocks/head.html",
 		"/E/Dropbox/work/BANG/markup/dev/stylus/action-promo.styl",
 		"/E/Dropbox/work/BANG/markup/dev/html_blocks/brands.html",
 		"/E/Dropbox/work/BANG/markup/dev/stylus/brands.styl",
 		"/E/Dropbox/work/BANG/markup/dev/html_blocks/category.html",
 		"/E/Dropbox/work/BANG/markup/dev/html_blocks/product-filters.html",
-		"/E/Dropbox/work/BANG/markup/dev/stylus/product-filters.styl",
 		"/E/Dropbox/work/BANG/markup/dev/html_blocks/category_left-filters.html",
-		"/E/Dropbox/work/BANG/markup/dev/stylus/compare.styl",
 		"/E/Dropbox/work/BANG/markup/dev/stylus/slider.styl",
 		"/E/Dropbox/work/BANG/markup/dev/css/ie7.css",
 		"/D/Dropbox/work/BANG/markup/dev/stylus/ui.styl",
@@ -342,7 +333,6 @@
 		"/D/Dropbox/work/BANG/markup/markup.sublime-project",
 		"/F/Space Rangers HD A War Apart/DATA/scripts.pkg",
 		"/F/Корсары/config.exe",
-		"/E/Dropbox/work/BANG/markup/dev/pages/compare.html",
 		"/D/Dropbox/work/BANG/markup/dev/html_blocks/slider.html",
 		"/D/Dropbox/work/BANG/markup/dev/html_blocks/404.html",
 		"/D/Dropbox/work/BANG/markup/dev/pages/index.html",
@@ -373,21 +363,7 @@
 		"/E/Dropbox/work/BANG/markup/dev/css/styles.css",
 		"/E/Dropbox/work/BANG/markup/dev/stylus/fonts.styl",
 		"/E/Dropbox/work/BANG/markup/dev/stylus/header.styl",
-		"/E/Dropbox/work/BANG/markup/dev/stylus/mixin.styl",
-		"/C/Users/Oleksii_Pronyakin@epam.com/Downloads/livesport_june_2013/command-profile.html",
-		"/D/Dropbox/work/BANG/markup/dev/html_blocks/top-panel.html",
-		"/D/Dropbox/work/BANG/markup/dev/html_blocks/header-panel.html",
-		"/D/Dropbox/work/BANG/markup/dev/html_blocks/script-lists.html",
-		"/D/Dropbox/work/limonchik/markup/dev/stylus/ui.styl",
-		"/D/Dropbox/work/limonchik/markup/dev/stylus/styles.styl",
-		"/D/Dropbox/work/limonchik/markup/dev/stylus/contacts.styl",
-		"/D/Dropbox/work/limonchik/markup/dev/pages/contacts.html",
-		"/D/Dropbox/work/limonchik/markup/dev/html_blocks/contacts.html",
-		"/D/Dropbox/work/limonchik/markup/dev/stylus/footer.styl",
-		"/E/Dropbox/work/limonchik/markup/dev/stylus/normalize.styl",
-		"/E/Dropbox/work/limonchik/markup/dev/stylus/mixin.styl",
-		"/E/Dropbox/work/limonchik/markup/dev/stylus/variables.styl",
-		"/E/Dropbox/work/limonchik/markup/dev/stylus/size_classes.styl"
+		"/E/Dropbox/work/BANG/markup/dev/stylus/mixin.styl"
 	],
 	"find":
 	{
@@ -409,6 +385,19 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"products",
+			" class=\"h-product-list__bg\"",
+			"sale-list",
+			"sale-products",
+			"darkColor2",
+			"div",
+			"$orange",
+			"holder",
+			"sale-list__visual",
+			"nav-list__visual",
+			"text-inpu",
+			"text-in",
+			"blue-btn",
 			"copy",
 			"link",
 			"&",
@@ -523,20 +512,7 @@
 			"jsFilesForRelease",
 			"htmlFilesForRelease",
 			"jsFilesForRelease",
-			"conca",
-			"\\",
-			"pathToStylusFiles",
-			"\\",
-			"+",
-			"sorting_query",
-			"лот 0.12",
-			"galle",
-			"h1",
-			"<figure class='categories__list__ico'>",
-			"breadcrumbs-list",
-			"<link href='http://fonts.googleapis.com/css?family=PT+Sans:400,700,400italic&subset=latin,cyrillic-ext' rel='stylesheet' type='text/css'>",
-			"h1",
-			"alt=\"\"></span>"
+			"conca"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -562,24 +538,28 @@
 	"groups":
 	[
 		{
-			"selected": 4,
+			"selected": 3,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "dev/html_blocks/article.html",
+					"file": "dev/html_blocks/sale-one.html",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 5944,
+						"buffer_size": 3341,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								641,
-								641
+								1401,
+								1407
+							],
+							[
+								2450,
+								2456
 							]
 						],
 						"settings":
@@ -588,56 +568,55 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 161.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 14,
+					"stack_index": 3,
 					"type": "text"
 				},
 				{
 					"buffer": 1,
-					"file": "dev/html_blocks/brand.html",
+					"file": "dev/pages/search-results.html",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 12324,
+						"buffer_size": 409,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1318,
-								1318
+								285,
+								285
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/HTML/HTML.tmLanguage",
-							"translate_tabs_to_spaces": false
+							"syntax": "Packages/HTML/HTML.tmLanguage"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 6,
+					"stack_index": 4,
 					"type": "text"
 				},
 				{
 					"buffer": 2,
-					"file": "dev/html_blocks/compare.html",
+					"file": "dev/html_blocks/search-results.html",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 5144,
+						"buffer_size": 9925,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1318,
-								1318
+								8653,
+								8653
 							]
 						],
 						"settings":
@@ -646,7 +625,7 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 2156.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 5,
@@ -654,82 +633,54 @@
 				},
 				{
 					"buffer": 3,
-					"file": "dev/dev_js/compare&main.js",
+					"file": "dev/html_blocks/category_left-filters.html",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1251,
+						"buffer_size": 10060,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								923,
-								923
+								10060,
+								10060
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 3,
-					"type": "text"
-				},
-				{
-					"buffer": 4,
-					"file": "Gruntfile.js",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 4803,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								3962,
-								3962
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 1932.0,
+						"translation.y": 2520.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
 					"type": "text"
 				},
 				{
-					"buffer": 5,
-					"file": "dev/pages/compare.html",
+					"buffer": 4,
+					"file": "dev/html_blocks/product-list_horizontal.html",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 402,
+						"buffer_size": 2317,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								0,
-								0
+								413,
+								413
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/HTML/HTML.tmLanguage"
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -739,112 +690,84 @@
 					"type": "text"
 				},
 				{
-					"buffer": 6,
-					"file": "dev/html_blocks/bottom.html",
+					"buffer": 5,
+					"file": "dev/html_blocks/products-catalogue.html",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 244,
+						"buffer_size": 6673,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								244,
-								244
+								0,
+								6673
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/HTML/HTML.tmLanguage"
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 1,
+					"stack_index": 7,
 					"type": "text"
 				},
 				{
-					"buffer": 7,
-					"file": "dev/dev_js/ui-elems&main.js",
-					"semi_transient": true,
-					"settings":
-					{
-						"buffer_size": 11829,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								2332,
-								2807
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 126.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 4,
-					"type": "text"
-				},
-				{
-					"buffer": 8,
-					"file": "dev/stylus/compare.styl",
+					"buffer": 6,
+					"file": "dev/html_blocks/sale.html",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 2496,
+						"buffer_size": 8002,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								775,
-								775
+								4993,
+								4993
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/SCSS/SCSS.tmLanguage",
+							"syntax": "Packages/HTML/HTML.tmLanguage",
 							"translate_tabs_to_spaces": false
 						},
-						"translation.x": -0.0,
-						"translation.y": 294.0,
+						"translation.x": 0.0,
+						"translation.y": 1615.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 7,
+					"stack_index": 6,
 					"type": "text"
 				}
 			]
 		},
 		{
-			"selected": 3,
+			"selected": 4,
 			"sheets":
 			[
 				{
-					"buffer": 9,
-					"file": "dev/stylus/article.styl",
+					"buffer": 7,
+					"file": "dev/stylus/variables.styl",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 2190,
+						"buffer_size": 540,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1634,
-								1634
+								540,
+								540
 							]
 						],
 						"settings":
@@ -852,174 +775,27 @@
 							"syntax": "Packages/SCSS/SCSS.tmLanguage"
 						},
 						"translation.x": 0.0,
-						"translation.y": 840.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 11,
-					"type": "text"
-				},
-				{
-					"buffer": 10,
-					"file": "dev/stylus/main.styl",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1683,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1587,
-								1587
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/SCSS/SCSS.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 480.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 9,
-					"type": "text"
-				},
-				{
-					"buffer": 11,
-					"file": "dev/stylus/ui.styl",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 14276,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								14239,
-								14239
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/SCSS/SCSS.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 10225.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 10,
-					"type": "text"
-				},
-				{
-					"buffer": 12,
-					"file": "dev/stylus/brand.styl",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1993,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1235,
-								1235
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/SCSS/SCSS.tmLanguage",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 336.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 8,
-					"type": "text"
-				},
-				{
-					"buffer": 13,
-					"file": "dev/stylus/product-list.styl",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 3169,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1199,
-								1199
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/SCSS/SCSS.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 705.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 13,
-					"type": "text"
-				},
-				{
-					"buffer": 14,
-					"file": "dev/stylus/product-filters.styl",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 7163,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								6805,
-								6805
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/SCSS/SCSS.tmLanguage",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": -0.0,
-						"translation.y": 3519.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 12,
 					"type": "text"
 				},
 				{
-					"buffer": 15,
-					"file": "dev/stylus/gallery.styl",
+					"buffer": 8,
+					"file": "dev/stylus/ui.styl",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 857,
+						"buffer_size": 14536,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								202,
-								202
+								1,
+								2
 							]
 						],
 						"settings":
@@ -1031,7 +807,123 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 15,
+					"stack_index": 11,
+					"type": "text"
+				},
+				{
+					"buffer": 9,
+					"file": "dev/stylus/breadcrumbs.styl",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 392,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								357,
+								357
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/SCSS/SCSS.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 10,
+					"type": "text"
+				},
+				{
+					"buffer": 10,
+					"file": "dev/stylus/sale.styl",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2902,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2900,
+								2900
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/SCSS/SCSS.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 1861.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 8,
+					"type": "text"
+				},
+				{
+					"buffer": 11,
+					"file": "dev/stylus/product-list.styl",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 5667,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								3448,
+								3448
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/SCSS/SCSS.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 2380.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 12,
+					"file": "dev/stylus/main.styl",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2100,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1759,
+								1759
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/SCSS/SCSS.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 840.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 9,
 					"type": "text"
 				}
 			]
