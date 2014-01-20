@@ -1,5 +1,8 @@
 <div class="search-results">
-	
+	<div class="search-results__head">
+		<div class="content-wrapper"><span class="search-results__head-name">Ищем:</span>
+			Кинотеатр Yamaha</div>
+	</div>
 	<div class="category category_left-filters">
 		<div class="category__container">
 			<span class="aside__bg">&nbsp;</span>
@@ -80,25 +83,25 @@
 				</div>
 			</aside>
 			<div class="holder">
-				<nav class="menu menu_category">
+				<nav class="menu menu_expand menu_category">
 					<section class="menu__column">
-						<div class="menu__title"><a href="#">Акустические системы</a></div>
+						<div class="menu__title active"><a class="menu__expander">expand</a><a href="#">Акустические системы</a></div>
 						<ul class="menu__list">
-							<li class="menu__list-item"><a href="#">Полочная акустика</a></li>
-							<li class="menu__list-item"><a href="#">Напольная акустика</a></li>
-							<li class="menu__list-item"><a href="#">Акустика центрального канала</a></li>
-							<li class="menu__list-item"><a href="#">Настенная акустика</a></li>
-							<li class="menu__list-item"><a href="#">Всепогодная акустика</a></li>
-							<li class="menu__list-item"><a href="#">Сабвуферы</a></li>
+							<li class="menu__list-item"><a href="#">Полочная акустика</a> <span class="menu__count">10</span></li>
+							<li class="menu__list-item"><a href="#">Напольная акустика</a> <span class="menu__count">25</span></li>
+							<li class="menu__list-item"><a href="#">Акустика центрального канала</a> <span class="menu__count">5</span></li>
+							<li class="menu__list-item"><a href="#">Настенная акустика</a> <span class="menu__count">1</span></li>
+							<li class="menu__list-item"><a href="#">Всепогодная акустика</a> <span class="menu__count">8</span></li>
+							<li class="menu__list-item"><a href="#">Сабвуферы</a> <span class="menu__count">12</span></li>
 						</ul>
-						<div class="menu__title"><a href="#">Встраиваемая акустика</a></div>
+						<div class="menu__title"><a href="#">Встраиваемая акустика</a> <span class="menu__count">36</span></div>
 						<ul class="menu__list">
-							<li class="menu__list-item"><a href="#">Комплекты акустики</a></li>
-							<li class="menu__list-item"><a href="#">Усилители для встраиваемых АС</a></li>
+							<li class="menu__list-item"><a href="#">Комплекты акустики</a> <span class="menu__count">86</span></li>
+							<li class="menu__list-item"><a href="#">Усилители для встраиваемых АС</a> <span class="menu__count">521</span></li>
 						</ul>
 					</section>
 					<section class="menu__column">
-						<div class="menu__title"><a href="#">Ландшафтная акустика</a></div>
+						<div class="menu__title"><a class="menu__expander">expand</a><a href="#">Ландшафтная акустика</a></div>
 						<ul class="menu__list">
 							<li class="menu__list-item"><a href="#">Акустика под натуральный камень</a></li>
 							<li class="menu__list-item"><a href="#">Стилизованная под цветочные горшки</a></li>
@@ -146,7 +149,7 @@
 						</span>
 					</div>
 				</div>
-				@@include("../html_blocks/product-list.html")
+				@@include("../html_blocks/product-list_horizontal.html")
 				<div class="product-list-btns">
 					<a href="#" class="gray-btn">Все товары</a>
 				</div>

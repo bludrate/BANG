@@ -22,6 +22,12 @@
             margin: 0;
         }
     }
+    &_expand &__title.active + &__list {
+        display: block;
+    }
+    &_expand &_list {
+        display: none;
+    }
     &__list {
         font-size: 15px;
         line-height: 22px;
@@ -48,6 +54,11 @@
         letter-spacing: 1px;
         color: $darkColor1;
         text-transform: uppercase;
+        &:after {
+            content: '';
+            display: block;
+            clear: both;
+        }
         a {
             color: $darkColor1;
             text-decoration: none;
@@ -58,5 +69,26 @@
         & + & {
             padding-top: 5px;
         }
+    }
+    &__expander {
+        float: left;
+        width: 11px;
+        margin: 2px 0 0 -20px;
+        text-indent: -9999px;
+        cursor: pointer;
+        overflow: hidden;
+        height: 11px;
+        bg("expand.gif");
+        &:hover {
+            opacity: 0.8;
+        }
+    }
+    &_expand &__title.active &__expander {
+        background-position: 0 -34px;
+    }
+    &__count {
+        color: $blue;
+        font-family: "helveticaneuecyrlight", helvetica,arial,sans-serif;;
+        margin-left: 5px;
     }
 }

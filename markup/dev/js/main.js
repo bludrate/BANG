@@ -62,6 +62,12 @@ ui.compare = function () {
 	});
 }
 ui.initElems.push("compare");
+ui.menuExpand = function () {
+	$('.menu').on('click','.menu__expander', function () {
+		$(this).closest('.menu__title').toggleClass('active');
+	});	
+};
+ui.initElems.push("menuExpand");
 ui.miniCart = function () {
 	var miniCart = $('.mini-cart');
 	miniCart.on("click",'.mini-cart__opener', function () {
