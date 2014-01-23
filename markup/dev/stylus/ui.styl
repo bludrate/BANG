@@ -784,3 +784,179 @@
 		vertical-align: top;
 	}
 }
+.input-wrap {
+	border: 1px solid $borderGray;
+	overflow: hidden;
+	display: block;
+	padding: 0 10px 0 25px;
+	&.street {
+		width: 191px;
+	}
+	&.house {
+		width: 57px;
+		padding: 0;
+		input {
+			text-align: center;
+		}
+	}
+	&.house, &.street {
+		float: left;
+		margin-right: 6px;
+	}
+	&.flat {
+		padding: 0;
+		input {
+			text-align: center;
+		}
+	}
+	input {
+		border: none;
+		padding: 0;
+		margin: 0;
+		width: 100%;
+		height: 42px;
+		font: 18px/42px "helveticaneuecyrlight", helvetica, arial, sans-serif;
+		color: $textColor;
+	}
+}
+.form-link {
+	color: $gray;
+	font-size: 18px;
+	line-height: 20px;
+	border-bottom: 1px dotted;
+	text-decoration: none;
+	&:hover {
+		border: none;
+	}
+}
+.form-controls {
+	padding: 50px 0 0 182px;
+	.blue-btn {
+		width: 275px;
+		padding: 0;
+	}
+}
+.form-right-row {
+	padding: 10px 0 0 182px;
+}
+.label {
+	float: left;
+	width: 175px;
+	margin: 0 7px 0 0;
+	font-size: 15px;
+	line-height: 44px;
+	color:$darkColor1;
+}
+.form-row {
+	overflow: hidden;
+	margin: 28px 0 0;
+	&:first-child {
+		margin: 0;
+	}
+	&_list-holder {
+		margin-top: 47px;
+	}
+}
+.radio-list {
+	list-style: none;
+	padding: 9px 0 25px;
+	margin: 0;
+	overflow: hidden;
+	&__item {
+		margin: 22px 0 0;
+		overflow: hidden;
+		&:first-child {
+			margin: 0;
+		}
+	}
+}
+input.radio-btn {
+	position: absolute;
+	left: -9999px;
+}
+label.radio-btn {
+	float: left;
+	cursor: pointer;
+	padding: 0 0 0 34px;
+	font: 18px/24px "helveticaneuecyrlight", helvetica, arial, sans-serif;
+	color:$gray;
+	letter-spacing: 1px;
+	.orange {
+		opacity: 0.7;
+	}
+	bg('radio.png',0,3px);
+	input:checked + & {
+		background-position: 0 -79px;
+		color:$textColor;
+		.orange {
+			opacity: 1;
+		}
+	}
+}
+select.select {
+	display: none;
+}
+.select-opener {
+	border: 1px solid $borderGray;
+	overflow: hidden;
+	display: block;
+	padding: 0 30px 0 25px;
+	position: relative;
+	font: 18px/42px "helveticaneuecyrlight", helvetica, arial, sans-serif;
+	color: $textColor;
+	height: 42px;
+	cursor: pointer;
+	bg('none.gif',0,0,repeat);
+	&.active {
+		border-color: $blue;
+	}
+	.selected {
+		display: block;
+		overflow: hidden;
+		text-overflow: ellipsis;
+	}
+	.ico {
+		position: absolute;
+		top: 19px;
+		right: 16px;
+		border-style: solid;
+		border-color: $gray transparent transparent;
+		border-width: 7px 6px;
+	}
+	&.active .ico{
+		top: 12px;
+		border-color: transparent transparent $gray; 
+	}
+}
+.select-dropdown {
+	position: absolute;
+	margin: -1px 0;
+	ul {
+		border:1px solid $blue;
+		list-style: none;
+		margin: 0;
+		padding: 0;
+		max-height: 300px;
+		overflow: auto;
+	}
+	a{
+		display: block;
+		font-size: 14px;
+		line-height: 18px;
+		letter-spacing: 0.5px;
+		padding: 7px 20px 7px 26px;
+		cursor: pointer;
+		background: #fff;
+		text-decoration: none;
+		color: $gray;
+		&:hover{
+			color: $textColor;
+			background-color: $lightBlue2;
+		}
+	}
+	li.active a,
+	li.active a:hover {
+		color: $textColor;
+		background-color: mix($lightBlue2,$lightBlue);
+	}
+}

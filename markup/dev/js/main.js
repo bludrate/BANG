@@ -83,6 +83,13 @@ ui.miniCart = function () {
 	});
 }
 ui.initElems.push("miniCart");
+ui.productPopupGallery = function () {
+	$('.product-popup__gallery').roundabout({
+		"childSelector": "img",
+		"minScale": 0.3
+	});
+}
+ui.initElems.push("productPopupGallery");
 
 ui.initShortMenu = function () {
 	var shortMenu = $('#short-menu'),

@@ -1,137 +1,206 @@
-<div class="shopping-flow">
+<div class="content-holder">
 	<h1 class="shopping-flow__title"><div class="content-wrapper">Оформление заказа</div></h1>
-	<section class="shopping-flow__content">
-		<section class="tabset">
-			<nav class="tabcontrol">
-				<a href="#" class="active tabcontrol__item">Покупаете в Bang впервые?</a>
-				<a href="#" class="tabcontrol__item">Постоянный покупатель</a>
-			</nav>
-			<section class="tab active">
-				  <form action="#" class="shopping-flow__form">
-				  	<fieldset>
-				  		<div class="form-row">
-				  			<label class='label' for="input01">Мобильный телефон:</label>
-				  			<label class="input-wrap">
-				  				<input type="text" id="input01" placeholder="38 (***)- ***-**-**"/>
-				  			</label>
-				  		</div>
-				  		<div class="form-row">
-				  			<label class='label' for="input02">ФИО:</label>
-				  			<label class="input-wrap">
-				  				<input type="text" id="input02" placeholder="Ваше имя"/>
-				  			</label>
-				  		</div>
-				  		<div class="form-row">
-				  			<label class='label' for="input03">Электронный адрес:</label>
-				  			<label class="input-wrap">
-				  				<input type="text" id="input03" placeholder="38 (***)- ***-**-**"/>
-				  			</label>
-				  		</div>
-				  		<div class="form-row">
-				  			<label>Способ доставки:</label>
-				  			<ul class="radio-list">
-				  				<li class="radio-list__item"><input type="radio" name="group1" id="rad01"><label for="rad01" class="radio">Курьером по Киеву  - <strong class="orange">Бесплатно</strong></label></li>
-				  				<li class="radio-list__item"><input type="radio" name="group1" id="rad02"><label for="rad02" class="radio">На склад "Новой почты"  - <strong>45 грн</strong>.</label></li>
-				  				<li class="radio-list__item"><input type="radio" name="group1" id="rad03"><label for="rad03" class="radio">Адресная доставка - <strong>75 грн</strong>.</label></li>
-				  				<li class="radio-list__item"><input type="radio" name="group1" id="rad04"><label for="rad04" class="radio">Доставка по Украине - от <strong>70 грн</strong>.</label></li>
-				  			</ul>
-				  		</div>
-				  		<div class="form-row">
-				  			<label for="select" class="label">Город:</label>
-				  			<select id="select" class="select">
-				  				<option value="Киев">Киев</option>
-				  				<option value="Харьков">Харьков</option>
-				  				<option value="Днепропетровск">Днепропетровск</option>
-				  				<option value="Донецк">Донецк</option>
-				  			</select>
-				  		</div>
-				  		<div class="form-row">
-				  			<label for="input04" class="label">Адрес:</label>
-				  			<div class="form-address">
-				  				<label class="input-wrap street"><input type="text" id="input04" placeholder="Улица"></label>
-				  				<label class="input-wrap house"><input type="text" placeholder="Дом"></label>
-				  				<label class="input-wrap flat"><input type="text" placeholder="Кв."></label>
-				  			</div>
-				  		</div>
-				  		<div class="form-row">
-				  			<label for="input05" class="label">Способ оплаты:</label>
-				  			<ul class="radio-list">
-				  				<li class="radio-list__item"><input type="radio" name="group2" id="rad05"><label for="rad05" class="radio">Наличными</label></li>
-				  				<li class="radio-list__item"><input type="radio" name="group2" id="rad06"><label for="rad06" class="radio">Безналичная оплата с НДС</label></li>
-				  			</ul>
-				  		</div>
-				  		<div class="form-right-row">
-				  			<a href="#" class="gray-link">Добавить комментарий к заказу</a>
-				  		</div>
-				  		<div class="form-controls">
-				  			<div class="blue-btn">
-				  				Подтвердить заказ
-				  				<input type="submit" value="Подтвердить заказ">
-				  			</div>
-				  		</div>
-				  	</fieldset>
-				  </form>
+	<div class="shopping-flow content-wrapper">
+		<section class="shopping-flow__content">
+			<section class="tabset">
+				<nav class="tabcontrol">
+					<a href="#" class="active tabcontrol__item">Покупаете в Bang впервые?</a>
+					<a href="#" class="tabcontrol__item">Постоянный покупатель</a>
+				</nav>
+				<section class="tab active">
+					  <form action="#" class="shopping-flow__form">
+					  	<fieldset>
+					  		<div class="form-row">
+					  			<label class='label' for="input01">Мобильный телефон:</label>
+					  			<label class="input-wrap">
+					  				<input type="text" id="input01" placeholder="38 (***)- ***-**-**"/>
+					  			</label>
+					  		</div>
+					  		<div class="form-row">
+					  			<label class='label' for="input02">ФИО:</label>
+					  			<label class="input-wrap">
+					  				<input type="text" id="input02" placeholder="Ваше имя"/>
+					  			</label>
+					  		</div>
+					  		<div class="form-row">
+					  			<label class='label' for="input03">Электронный адрес:</label>
+					  			<label class="input-wrap">
+					  				<input type="text" id="input03" placeholder="38 (***)- ***-**-**"/>
+					  			</label>
+					  		</div>
+					  		<div class="form-row form-row_list-holder">
+					  			<label class='label'>Способ доставки:</label>
+					  			<ul class="radio-list">
+					  				<li class="radio-list__item"><input class="radio-btn" type="radio" name="group1" id="rad01"><label for="rad01" class="radio-btn">Курьером по Киеву  - <strong class="orange">Бесплатно</strong></label></li>
+					  				<li class="radio-list__item"><input class="radio-btn" type="radio" name="group1" id="rad02"><label for="rad02" class="radio-btn">На склад "Новой почты"  - <strong>45 грн</strong>.</label></li>
+					  				<li class="radio-list__item"><input class="radio-btn" type="radio" name="group1" id="rad03"><label for="rad03" class="radio-btn">Адресная доставка - <strong>75 грн</strong>.</label></li>
+					  				<li class="radio-list__item"><input class="radio-btn" type="radio" name="group1" id="rad04"><label for="rad04" class="radio-btn">Доставка по Украине - от <strong>70 грн</strong>.</label></li>
+					  			</ul>
+					  		</div>
+					  		<div class="form-row">
+					  			<label for="select" class="label">Город:</label>
+					  			<select id="select" class="select">
+					  				<option value="Киев">Киев</option>
+					  				<option value="Харьков">Харьков</option>
+					  				<option value="Днепропетровск">Днепропетровск</option>
+					  				<option value="Донецк">Донецк</option>
+					  			</select>
+					  		</div>
+					  		<div class="form-row">
+					  			<label for="input04" class="label">Адрес:</label>
+					  			<div class="form-address">
+					  				<label class="input-wrap street"><input type="text" id="input04" placeholder="Улица"></label>
+					  				<label class="input-wrap house"><input type="text" placeholder="Дом"></label>
+					  				<label class="input-wrap flat"><input type="text" placeholder="Кв."></label>
+					  			</div>
+					  		</div>
+					  		<div class="form-row">
+					  			<label for="input05" class="label">Способ оплаты:</label>
+					  			<ul class="radio-list">
+					  				<li class="radio-list__item"><input class="radio-btn" type="radio" name="group2" id="rad05"><label for="rad05" class="radio-btn">Наличными</label></li>
+					  				<li class="radio-list__item"><input class="radio-btn" type="radio" name="group2" id="rad06"><label for="rad06" class="radio-btn">Безналичная оплата с НДС</label></li>
+					  			</ul>
+					  		</div>
+					  		<div class="form-right-row">
+					  			<a href="#" class="form-link">Добавить комментарий к заказу</a>
+					  		</div>
+					  		<div class="form-controls">
+					  			<div class="blue-btn">
+					  				Подтвердить заказ
+					  				<input type="submit" value="Подтвердить заказ">
+					  			</div>
+					  		</div>
+					  	</fieldset>
+					  </form>
+				</section>
+				<section class="tab">
+					<form action="#" class="shopping-flow__form">
+					  	<fieldset>
+					  		<div class="form-row">
+					  			<label class='label' for="input01">Мобильный телефон:</label>
+					  			<label class="input-wrap">
+					  				<input type="text" id="input01" placeholder="38 (***)- ***-**-**"/>
+					  			</label>
+					  		</div>
+					  		<div class="form-row">
+					  			<label class='label' for="input02">ФИО:</label>
+					  			<label class="input-wrap">
+					  				<input type="text" id="input02" placeholder="Ваше имя"/>
+					  			</label>
+					  		</div>
+					  		<div class="form-row">
+					  			<label class='label' for="input03">Электронный адрес:</label>
+					  			<label class="input-wrap">
+					  				<input type="text" id="input03" placeholder="38 (***)- ***-**-**"/>
+					  			</label>
+					  		</div>
+					  		<div class="form-row form-row_list-holder">
+					  			<label class='label'>Способ доставки:</label>
+					  			<ul class="radio-list">
+					  				<li class="radio-list__item"><input class="radio-btn" type="radio" name="group1" id="rad01"><label for="rad01" class="radio-btn">Курьером по Киеву  - <strong class="orange">Бесплатно</strong></label></li>
+					  				<li class="radio-list__item"><input class="radio-btn" type="radio" name="group1" id="rad02"><label for="rad02" class="radio-btn">На склад "Новой почты"  - <strong>45 грн</strong>.</label></li>
+					  				<li class="radio-list__item"><input class="radio-btn" type="radio" name="group1" id="rad03"><label for="rad03" class="radio-btn">Адресная доставка - <strong>75 грн</strong>.</label></li>
+					  				<li class="radio-list__item"><input class="radio-btn" type="radio" name="group1" id="rad04"><label for="rad04" class="radio-btn">Доставка по Украине - от <strong>70 грн</strong>.</label></li>
+					  			</ul>
+					  		</div>
+					  		<div class="form-row">
+					  			<label for="select" class="label">Город:</label>
+					  			<select id="select" class="select">
+					  				<option value="Киев">Киев</option>
+					  				<option value="Харьков">Харьков</option>
+					  				<option value="Днепропетровск">Днепропетровск</option>
+					  				<option value="Донецк">Донецк</option>
+					  			</select>
+					  		</div>
+					  		<div class="form-row">
+					  			<label for="input04" class="label">Адрес:</label>
+					  			<div class="form-address">
+					  				<label class="input-wrap street"><input type="text" id="input04" placeholder="Улица"></label>
+					  				<label class="input-wrap house"><input type="text" placeholder="Дом"></label>
+					  				<label class="input-wrap flat"><input type="text" placeholder="Кв."></label>
+					  			</div>
+					  		</div>
+					  		<div class="form-row">
+					  			<label for="input05" class="label">Способ оплаты:</label>
+					  			<ul class="radio-list">
+					  				<li class="radio-list__item"><input class="radio-btn" type="radio" name="group2" id="rad05"><label for="rad05" class="radio-btn">Наличными</label></li>
+					  				<li class="radio-list__item"><input class="radio-btn" type="radio" name="group2" id="rad06"><label for="rad06" class="radio-btn">Безналичная оплата с НДС</label></li>
+					  			</ul>
+					  		</div>
+					  		<div class="form-right-row">
+					  			<a href="#" class="form-link">Добавить комментарий к заказу</a>
+					  		</div>
+					  		<div class="form-controls">
+					  			<div class="blue-btn">
+					  				Подтвердить заказ
+					  				<input type="submit" value="Подтвердить заказ">
+					  			</div>
+					  		</div>
+					  	</fieldset>
+					  </form>
+				</section>
 			</section>
 		</section>
-	</section>
-	<form action="#" class="your-order">
-		<fieldset>
-			<ul class="mini-cart__list">
-				<li class="mini-cart__list-item">
-					<figure class="mini-cart__list-visual"><a href="#"><img src="@@temp_img_path/img13.jpg" alt=""></a></figure>
-					<div class="mini-cart__info">
-						<div class="mini-cart__name">АС центрального канала Yamaha NS-C444</div>
-						<div class="count-input count-input_mini-cart">
-							<input class="text-input" type="text" data-min="1"> <!-- data-max - for max -->
-							<a href="#" class="count-input__more">more</a>
-							<a href="#" class="count-input__less">less</a>
+		<form action="#" class="mini-cart mini-cart__drop your-order">
+			<fieldset>
+				<h2 class="mini-cart__title">Ваш заказ</h2>
+				<ul class="mini-cart__list">
+					<li class="mini-cart__list-item">
+						<figure class="mini-cart__list-visual"><a href="#"><img src="@@temp_img_path/img13.jpg" alt=""></a></figure>
+						<div class="mini-cart__info">
+							<div class="mini-cart__name">АС центрального канала Yamaha NS-C444</div>
+							<div class="count-input count-input_mini-cart">
+								<input class="text-input" type="text" data-min="1"> <!-- data-max - for max -->
+								<a href="#" class="count-input__more">more</a>
+								<a href="#" class="count-input__less">less</a>
+							</div>
+							<strong class="mini-cart__price">1 830 грн.</strong>
 						</div>
-						<strong class="mini-cart__price">1 830 грн.</strong>
-					</div>
-					<a href="#" class="mini-cart__delete">delete</a>
-				</li>
-				<li class="mini-cart__list-item">
-					<figure class="mini-cart__list-visual"><a href="#"><img src="@@temp_img_path/img14.jpg" alt=""></a></figure>
-					<div class="mini-cart__info">
-						<div class="mini-cart__name">Комплект акустики 5.0  HECO Victa Prime 265W</div>
-						<div class="count-input count-input_mini-cart">
-							<input class="text-input" type="text" data-min="1"> <!-- data-max - for max -->
-							<a href="#" class="count-input__more">more</a>
-							<a href="#" class="count-input__less">less</a>
+						<a href="#" class="mini-cart__delete">delete</a>
+					</li>
+					<li class="mini-cart__list-item">
+						<figure class="mini-cart__list-visual"><a href="#"><img src="@@temp_img_path/img14.jpg" alt=""></a></figure>
+						<div class="mini-cart__info">
+							<div class="mini-cart__name">Комплект акустики 5.0  HECO Victa Prime 265W</div>
+							<div class="count-input count-input_mini-cart">
+								<input class="text-input" type="text" data-min="1"> <!-- data-max - for max -->
+								<a href="#" class="count-input__more">more</a>
+								<a href="#" class="count-input__less">less</a>
+							</div>
+							<strong class="mini-cart__price">7 400 грн.</strong>
 						</div>
-						<strong class="mini-cart__price">7 400 грн.</strong>
-					</div>
-					<a href="#" class="mini-cart__delete">delete</a>
-				</li>
-				<li class="mini-cart__list-item">
-					<figure class="mini-cart__list-visual"><a href="#"><img src="@@temp_img_path/img15.jpg" alt=""></a></figure>
-					<div class="mini-cart__info">
-						<div class="mini-cart__name">Активная настольная АС Ultralink UСube</div>
-						<div class="count-input count-input_mini-cart">
-							<input class="text-input" type="text" data-min="1"> <!-- data-max - for max -->
-							<a href="#" class="count-input__more">more</a>
-							<a href="#" class="count-input__less">less</a>
+						<a href="#" class="mini-cart__delete">delete</a>
+					</li>
+					<li class="mini-cart__list-item">
+						<figure class="mini-cart__list-visual"><a href="#"><img src="@@temp_img_path/img15.jpg" alt=""></a></figure>
+						<div class="mini-cart__info">
+							<div class="mini-cart__name">Активная настольная АС Ultralink UСube</div>
+							<div class="count-input count-input_mini-cart">
+								<input class="text-input" type="text" data-min="1"> <!-- data-max - for max -->
+								<a href="#" class="count-input__more">more</a>
+								<a href="#" class="count-input__less">less</a>
+							</div>
+							<strong class="mini-cart__price">5 130 грн.</strong>
 						</div>
-						<strong class="mini-cart__price">5 130 грн.</strong>
+						<a href="#" class="mini-cart__delete">delete</a>
+					</li>
+				</ul>
+				<div class="mini-cart__costs">
+					<div class="mini-cart__costs-row mini-cart__costs-total">
+						<span class="mini-cart__costs-title">Сумма:</span>
+						<strong class="mini-cart__costs-price">14 360 грн.</strong>
 					</div>
-					<a href="#" class="mini-cart__delete">delete</a>
-				</li>
-			</ul>
-			<div class="mini-cart__costs">
-				<div class="mini-cart__costs-row">
-					<span class="mini-cart__costs-title">Сумма:</span>
-					<strong class="mini-cart__costs-price">14 360 грн.</strong>
+					<div class="mini-cart__costs-row">
+						<span class="mini-cart__costs-title">Доставка:</span>
+						<strong class="mini-cart__costs-price free">Бесплатно</strong>
+						<div class="mini-cart__delivery-type">Курьером по Киеву</div>
+					</div>
 				</div>
-				<div class="mini-cart__costs-row">
-					<span class="mini-cart__costs-title">Доставка:</span>
-					<strong class="mini-cart__costs-price free">Бесплатно</strong>
-					<div class="mini-cart__delivery-type">Курьером по Киеву</div>
+				<div class="mini-cart__total">
+					<span class="mini-cart__total-title">К оплате:</span>
+					<strong class="mini-cart__total-price">14 360 грн.</strong>
 				</div>
-			</div>
-			<div class="mini-cart__total">
-				<span class="mini-cart__total-title">К оплате:</span>
-				<strong class="mini-cart__total-price">14 360 грн.</strong>
-			</div>
-		</fieldset>
-	</form>
+			</fieldset>
+		</form>
+	</div>
 </div>

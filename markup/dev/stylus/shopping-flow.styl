@@ -1,0 +1,51 @@
+.shopping-flow{
+	position: relative;
+	&__content {
+		width: 625px;
+	}
+	&__title {
+		border: solid $borderGray;
+		border-width: 1px 0;
+		padding: 24px 0 19px;
+		margin: 0 0 46px;
+	}
+	.tabcontrol {
+		border-bottom-color: $blue;
+		height: 72px;
+		margin-bottom: 52px;
+		&__item {
+			padding: 0 28px;
+			height: 72px;
+			line-height: 75px;
+			letter-spacing: 0.5px;
+			&.active {
+				border-color:$blue;
+				color: $textColor;
+			}
+		}
+	}
+	&__form {
+		padding: 0 58px 0 30px;
+	}
+}
+.your-order {
+	position: absolute;
+	right: 0;
+	width: 235px;
+	top: 0;
+	margin: 0;
+	left: auto;
+	opacity: 1;
+	&:after {
+		display: none;
+	}
+	&.mini-cart__drop {
+		padding: 21px 17px 20px 13px;
+		width: 235px;
+	}
+	.mini-cart__total {
+		margin: 0 -17px 0 -13px;
+		padding: 21px 20px 0px 22px;
+		border-top: 1px solid $blue;
+	}
+}

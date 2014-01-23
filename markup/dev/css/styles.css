@@ -199,6 +199,11 @@ a.no-link {
   color: #1f2225;
 }
 
+strong {
+  font-weight: normal;
+  font-family: "helveticaneuecyrmedium", Helvetica, arial, sans-serif;
+}
+
 .content-wrapper {
   width: 976px;
   margin: 0 auto;
@@ -1311,6 +1316,219 @@ input.checkbox:checked + .checkbox span {
   vertical-align: top;
 }
 
+.input-wrap {
+  border: 1px solid #eaeaea;
+  overflow: hidden;
+  display: block;
+  padding: 0 10px 0 25px;
+}
+
+.input-wrap.street {
+  width: 191px;
+}
+
+.input-wrap.house {
+  width: 57px;
+  padding: 0;
+}
+
+.input-wrap.house input {
+  text-align: center;
+}
+
+.input-wrap.house,
+.input-wrap.street {
+  float: left;
+  margin-right: 6px;
+}
+
+.input-wrap.flat {
+  padding: 0;
+}
+
+.input-wrap.flat input {
+  text-align: center;
+}
+
+.input-wrap input {
+  border: none;
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  height: 42px;
+  font: 18px/42px "helveticaneuecyrlight", helvetica, arial, sans-serif;
+  color: #1f2225;
+}
+
+.form-link {
+  color: #858585;
+  font-size: 18px;
+  line-height: 20px;
+  border-bottom: 1px dotted;
+  text-decoration: none;
+}
+
+.form-link:hover {
+  border: none;
+}
+
+.form-controls {
+  padding: 50px 0 0 182px;
+}
+
+.form-controls .blue-btn {
+  width: 275px;
+  padding: 0;
+}
+
+.form-right-row {
+  padding: 10px 0 0 182px;
+}
+
+.label {
+  float: left;
+  width: 175px;
+  margin: 0 7px 0 0;
+  font-size: 15px;
+  line-height: 44px;
+  color: #444;
+}
+
+.form-row {
+  overflow: hidden;
+  margin: 28px 0 0;
+}
+
+.form-row:first-child {
+  margin: 0;
+}
+
+.form-row_list-holder {
+  margin-top: 47px;
+}
+
+.radio-list {
+  list-style: none;
+  padding: 9px 0 25px;
+  margin: 0;
+  overflow: hidden;
+}
+
+.radio-list__item {
+  margin: 22px 0 0;
+  overflow: hidden;
+}
+
+.radio-list__item:first-child {
+  margin: 0;
+}
+
+input.radio-btn {
+  position: absolute;
+  left: -9999px;
+}
+
+label.radio-btn {
+  float: left;
+  cursor: pointer;
+  padding: 0 0 0 34px;
+  font: 18px/24px "helveticaneuecyrlight", helvetica, arial, sans-serif;
+  color: #858585;
+  letter-spacing: 1px;
+  background: url("../img/radio.png") 0 3px no-repeat;
+}
+
+label.radio-btn .orange {
+  opacity: 0.7;
+}
+
+input:checked + label.radio-btn {
+  background-position: 0 -79px;
+  color: #1f2225;
+}
+
+input:checked + label.radio-btn .orange {
+  opacity: 1;
+}
+
+select.select {
+  display: none;
+}
+
+.select-opener {
+  border: 1px solid #eaeaea;
+  overflow: hidden;
+  display: block;
+  padding: 0 30px 0 25px;
+  position: relative;
+  font: 18px/42px "helveticaneuecyrlight", helvetica, arial, sans-serif;
+  color: #1f2225;
+  height: 42px;
+  cursor: pointer;
+  background: url("../img/none.gif") 0 0 repeat;
+}
+
+.select-opener.active {
+  border-color: #1fa3ff;
+}
+
+.select-opener .selected {
+  display: block;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.select-opener .ico {
+  position: absolute;
+  top: 19px;
+  right: 16px;
+  border-style: solid;
+  border-color: #858585 transparent transparent;
+  border-width: 7px 6px;
+}
+
+.select-opener.active .ico {
+  top: 12px;
+  border-color: transparent transparent #858585;
+}
+
+.select-dropdown {
+  position: absolute;
+  margin: -1px 0;
+}
+
+.select-dropdown ul {
+  border: 1px solid #1fa3ff;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  max-height: 300px;
+  overflow: auto;
+}
+
+.select-dropdown a {
+  display: block;
+  font-size: 14px;
+  line-height: 18px;
+  letter-spacing: 0.5px;
+  padding: 7px 20px 7px 26px;
+  cursor: pointer;
+  background: #fff;
+  text-decoration: none;
+  color: #858585;
+}
+
+.select-dropdown a:hover {
+  color: #1f2225;
+  background-color: #e8f6ff;
+}
+
+.select-dropdown li.active a,
+.select-dropdown li.active a:hover {
+  color: #1f2225;
+  background-color: #bfdef9;
+}
+
 .top-panel {
   height: 54px;
   line-height: 54px;
@@ -1421,6 +1639,12 @@ input.checkbox:checked + .checkbox span {
   z-index: 20;
 }
 
+.mini-cart__title {
+  font: 20px/24px "helveticaneuecyrlight", helvetica, arial, sans-serif;
+  margin: 0 0 14px 6px;
+  letter-spacing: 1.2px;
+}
+
 .mini-cart__opener {
   font: 16px/26px "helveticaneuecyrroman", helvetica, arial, sans-serif;
   display: block;
@@ -1511,6 +1735,57 @@ input.checkbox:checked + .checkbox span {
 
 .mini-cart__name a:hover {
   color: #1fa3ff;
+}
+
+.mini-cart__delivery-type {
+  clear: both;
+  display: block;
+  font: 12px/22px "helveticaneuecyrroman", helvetica, arial, sans-serif;
+  color: #858585;
+}
+
+.mini-cart__costs {
+  padding: 0 4px 14px 8px;
+}
+
+.mini-cart__costs-row {
+  margin: 22px 0 0;
+}
+
+.mini-cart__costs-row:after {
+  content: '';
+  display: block;
+  clear: both;
+}
+
+.mini-cart__costs-row:first-child {
+  margin: 0;
+}
+
+.mini-cart__costs-title {
+  font: 13px/20px "helveticaneuecyrroman", helvetica, arial, sans-serif;
+  text-transform: uppercase;
+  float: left;
+  letter-spacing: 1px;
+}
+
+.mini-cart__costs-price {
+  float: right;
+  letter-spacing: 1px;
+  color: #1fa3ff;
+  font: 15px/20px "helveticaneuecyrmedium", helvetica, arial, sans-serif;
+}
+
+.mini-cart__costs-price.free {
+  color: #f60;
+}
+
+.mini-cart__costs-total .mini-cart__costs-title {
+  font-size: 14px;
+}
+
+.mini-cart__costs-total .mini-cart__costs-price {
+  font-size: 17px;
 }
 
 .mini-cart__delete {
@@ -1765,6 +2040,7 @@ input.checkbox:checked + .checkbox span {
   position: relative;
   height: 515px;
   z-index: 3;
+  background: #f2f2f2;
 }
 
 .header + .promo-slider {
@@ -4183,6 +4459,7 @@ td.compare-list__brand {
   position: relative;
   min-height: 280px;
   margin-bottom: 32px;
+  background: #f2f2f2;
 }
 
 .article__general-visual {
@@ -4522,6 +4799,7 @@ td.compare-list__brand {
   margin: 0 0 10px;
   position: relative;
   overflow: hidden;
+  background: #f2f2f2;
 }
 
 .sale-item__bg {
@@ -4806,6 +5084,7 @@ td.compare-list__brand {
 .product-general {
   margin: 0 0 45px;
   position: relative;
+  background: #f2f2f2;
 }
 
 .product-general__availability {
@@ -5132,4 +5411,126 @@ td.compare-list__brand {
 
 .reviews__text p {
   margin: 0 0 24px;
+}
+
+.product-popup {
+  border: solid #1fa3ff;
+  border-width: 1px 0;
+  top: 164px;
+  position: relative;
+  background: #fff;
+}
+
+.product-popup .popup__close {
+  right: 28px;
+  top: 19px;
+}
+
+.product-popup__head {
+  position: relative;
+  padding: 56px 0 20px;
+  border-bottom: 1px solid #eaeaea;
+  margin: 0 0 30px;
+}
+
+.product-popup .to-cart {
+  height: 53px;
+  float: right;
+  letter-spacing: 0.8px;
+  margin: 12px 0 0 10px;
+  padding: 0 23px 0 59px;
+  line-height: 55px;
+  background-image: url("../img/ico24.png");
+  background-position: 20px 43%;
+}
+
+.product-popup__title {
+  font: 30px/36px "helveticaneuecyrthin", helvetica, arial, sans-serif;
+  letter-spacing: 3px;
+  text-transform: none;
+  margin: 0 0 7px;
+}
+
+.product-popup__price {
+  font: 30px/36px "helveticaneuecyrroman", helvetica, arial, sans-serif;
+  color: #1fa3ff;
+  letter-spacing: 1.3px;
+}
+
+.product-popup__gallery {
+  position: relative;
+  height: 600px;
+  width: 1100px;
+  left: 50%;
+  margin-left: -550px;
+}
+
+.product-popup__gallery img {
+  vertical-align: top;
+}
+
+.product-popup__gallery-item {
+  max-height: 600px;
+}
+
+.shopping-flow {
+  position: relative;
+}
+
+.shopping-flow__content {
+  width: 625px;
+}
+
+.shopping-flow__title {
+  border: solid #eaeaea;
+  border-width: 1px 0;
+  padding: 24px 0 19px;
+  margin: 0 0 46px;
+}
+
+.shopping-flow .tabcontrol {
+  border-bottom-color: #1fa3ff;
+  height: 72px;
+  margin-bottom: 52px;
+}
+
+.shopping-flow .tabcontrol__item {
+  padding: 0 28px;
+  height: 72px;
+  line-height: 75px;
+  letter-spacing: 0.5px;
+}
+
+.shopping-flow .tabcontrol__item.active {
+  border-color: #1fa3ff;
+  color: #1f2225;
+}
+
+.shopping-flow__form {
+  padding: 0 58px 0 30px;
+}
+
+.your-order {
+  position: absolute;
+  right: 0;
+  width: 235px;
+  top: 0;
+  margin: 0;
+  left: auto;
+  opacity: 1;
+}
+
+.your-order:after {
+  display: none;
+}
+
+.your-order.mini-cart__drop {
+  padding: 21px 17px 20px 13px;
+  width: 235px;
+}
+
+.your-order .mini-cart__total {
+  margin: 0 -17px 0 -13px;
+  padding: 21px 20px 0px 22px;
+  border-top: 1px solid #1fa3ff;
 }

@@ -88,6 +88,11 @@
 	margin: 8px 43px 0 20px;
 	position: relative;
 	z-index: 20;
+	&__title {
+		font: 20px/24px "helveticaneuecyrlight",helvetica, arial, sans-serif;
+		margin: 0 0 14px 6px;
+		letter-spacing: 1.2px;
+	}
 	&__opener {
 		font: 16px/26px "helveticaneuecyrroman",helvetica, arial, sans-serif;
 		display: block;
@@ -162,6 +167,47 @@
 			&:hover {
 				color: $blue;
 			}
+		}
+	}
+	&__delivery-type {
+		clear: both;
+		display: block;
+		font: 12px/22px "helveticaneuecyrroman",helvetica, arial, sans-serif;
+		color:$gray;
+	}
+	&__costs {
+		padding: 0 4px 14px 8px;
+		&-row {
+			margin: 22px 0 0;
+			&:after {
+				content: '';
+				display: block;
+				clear: both;
+			}
+			&:first-child {
+				margin: 0;
+			}
+		}
+		&-title {
+			font: 13px/20px "helveticaneuecyrroman",helvetica, arial, sans-serif;
+			text-transform: uppercase;
+			float: left;
+			letter-spacing: 1px;
+		}
+		&-price {
+			float: right;
+			letter-spacing: 1px;
+			color: $blue;
+			font:15px/20px "helveticaneuecyrmedium",helvetica, arial, sans-serif;
+			&.free {
+				color: $orange;
+			}
+		}
+		&-total &-title{
+			font-size: 14px;
+		}
+		&-total &-price {
+			font-size: 17px;
 		}
 	}
 	&__delete {
