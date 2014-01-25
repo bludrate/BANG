@@ -1941,21 +1941,21 @@ select.select {
   width: 15px;
   height: 8px;
   z-index: 20;
-  margin: -4px 0 0;
+  margin: -14px 0 0;
   opacity: 0;
   left: -9999px;
   position: absolute;
   background: url("../img/arrow.gif") 0 0 no-repeat;
-  -webkit-transition: opacity 0.2s, margin 0 0.2s;
-  -o-transition: opacity 0.2s, margin 0 0.2s;
-  transition: opacity 0.2s, margin 0 0.2s;
+  -webkit-transition: opacity 0.2s, margin 0 0.5s;
+  -o-transition: opacity 0.2s, margin 0 0.5s;
+  transition: opacity 0.2s, margin 0 0.5s;
 }
 
 .nav__list-item:hover .nav__arrow {
   left: auto;
-  -webkit-transition: opacity 0.2s, margin-top 0.2s;
-  -o-transition: opacity 0.2s, margin-top 0.2s;
-  transition: opacity 0.2s, margin-top 0.2s;
+  -webkit-transition: opacity 0.5s 0.1s, margin-top 0.4s 0.1s;
+  -o-transition: opacity 0.5s 0.1s, margin-top 0.4s 0.1s;
+  transition: opacity 0.5s 0.1s, margin-top 0.4s 0.1s;
   opacity: 1;
   margin: 16px 0 0 0;
 }
@@ -1964,22 +1964,22 @@ select.select {
   margin-top: 45px;
   left: 0;
   opacity: 1;
-  -webkit-transition: opacity 0.2s, margin 0.2s;
-  -o-transition: opacity 0.2s, margin 0.2s;
-  transition: opacity 0.2s, margin 0.2s;
+  -webkit-transition: opacity 0.5s 0.1s, margin 0.4s 0.1s, left 0 0.1s;
+  -o-transition: opacity 0.5s 0.1s, margin 0.4s 0.1s, left 0 0.1s;
+  transition: opacity 0.5s 0.1s, margin 0.4s 0.1s, left 0 0.1s;
 }
 
 .nav__drop {
-  -webkit-transition: opacity 0.2s, margin 0s 0.2s, left 0s 0.2s;
-  -o-transition: opacity 0.2s, margin 0s 0.2s, left 0s 0.2s;
-  transition: opacity 0.2s, margin 0s 0.2s, left 0s 0.2s;
+  -webkit-transition: opacity 0.3s, margin 0s 0.5s, left 0s 0.5s;
+  -o-transition: opacity 0.3s, margin 0s 0.5s, left 0s 0.5s;
+  transition: opacity 0.3s, margin 0s 0.5s, left 0s 0.5s;
   position: absolute;
   left: -9999px;
   opacity: 0;
   padding-top: 33px;
   width: 100%;
   border-top: 1px solid #1fa3ff;
-  margin-top: 25px;
+  margin-top: 15px;
   background: #fff;
   -webkit-box-shadow: 0 2px 0 rgba(0,0,0,0.31);
   box-shadow: 0 2px 0 rgba(0,0,0,0.31);
@@ -2035,7 +2035,6 @@ select.select {
 }
 
 .promo-slider {
-  max-width: 1440px;
   margin: 0 auto 49px;
   position: relative;
   height: 515px;
@@ -2158,10 +2157,14 @@ select.select {
   width: 33.333333%;
   background: #eee;
   background: rgba(255,255,255,0.4);
+  -webkit-transition: left 0.2s;
+  -o-transition: left 0.2s;
+  transition: left 0.2s;
 }
 
 .promo-slider__progress-amount {
   display: block;
+  max-width: 100%;
   background: #fff;
 }
 
@@ -2396,12 +2399,15 @@ select.select {
   text-align: center;
   width: 190px;
   left: 50%;
-  display: none;
   margin-left: -95px;
+  top: -200px;
+  -webkit-transition: top 0.25s;
+  -o-transition: top 0.25s;
+  transition: top 0.25s;
 }
 
 .product:hover .product__controls {
-  display: block;
+  top: 100px;
 }
 
 .product__hover {
@@ -2410,14 +2416,16 @@ select.select {
   right: 0;
   top: 0;
   z-index: 5;
-  bottom: 0;
-  display: none;
+  bottom: 100%;
   background: #fff;
   opacity: 0.8;
+  -webkit-transition: bottom 0.25s;
+  -o-transition: bottom 0.25s;
+  transition: bottom 0.25s;
 }
 
 .product:hover .product__hover {
-  display: block;
+  bottom: 0;
 }
 
 .product .to-cart {
@@ -4631,12 +4639,19 @@ td.compare-list__brand {
   overflow: hidden;
   margin: 0;
   padding: 0;
+  left: 0;
+  -webkit-transition: left 0.4s ease-in-out;
+  -o-transition: left 0.4s ease-in-out;
+  transition: left 0.4s ease-in-out;
 }
 
 .gallery__item {
   float: left;
   position: relative;
   opacity: 0.6;
+  -webkit-transition: opacity 0.25s;
+  -o-transition: opacity 0.25s;
+  transition: opacity 0.25s;
 }
 
 .gallery__item_active,
@@ -4652,6 +4667,9 @@ td.compare-list__brand {
   text-align: center;
   font-size: 0;
   line-height: 0;
+  padding: 0;
+  margin: 0;
+  list-style: none;
 }
 
 .gallery__switchers-item {
@@ -4660,10 +4678,14 @@ td.compare-list__brand {
   position: relative;
   opacity: 0.6;
   margin: -2px;
+  -webkit-transition: opacity 0.25s;
+  -o-transition: opacity 0.25s;
+  transition: opacity 0.25s;
 }
 
 .gallery__switchers-item_active {
   opacity: 1;
+  margin-top: -4px;
 }
 
 .gallery__switchers-item_active a {

@@ -340,17 +340,17 @@
 		width: 15px;
 		height: 8px;
 		z-index: 20;
-		margin: -4px 0 0;
+		margin: -14px 0 0;
 		opacity: 0;
 		left: -9999px;
 		position: absolute;
 		bg("arrow.gif");
-		transition: opacity 0.2s, margin 0 0.2s;
+		transition: opacity 0.2s, margin 0 0.5s;
 	}
 	&__list-item:hover {
 		.nav__arrow {
 			left: auto;
-			transition: opacity 0.2s, margin-top 0.2s;
+			transition: opacity 0.5s 0.1s, margin-top 0.4s 0.1s;
 			opacity: 1;
 			margin: 16px 0 0 0;
 		}
@@ -358,18 +358,18 @@
 			margin-top: 45px;
 			left: 0;
 			opacity: 1;
-			transition: opacity 0.2s, margin 0.2s;
+			transition: opacity 0.5s 0.1s, margin 0.4s 0.1s, left 0 0.1s;
 		}
 	}
 	&__drop {
-		transition: opacity 0.2s, margin 0s 0.2s, left 0s 0.2s;
+		transition: opacity 0.3s, margin 0s 0.5s, left 0s 0.5s;
 		position: absolute;
 		left: -9999px;
 		opacity: 0;
 		padding-top: 33px;
 		width: 100%;
 		border-top: 1px solid $blue;
-		margin-top: 25px;
+		margin-top: 15px;
 		background: #fff;
 		box-shadow: 0 2px 0 rgba(0,0,0,0.31);
 	}

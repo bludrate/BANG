@@ -133,11 +133,12 @@
 		text-align: center;
 		width: 190px;
 		left: 50%;
-		display: none;
 		margin-left: -95px;
+		top: -200px;
+		transition: top 0.25s;
 	}
 	&:hover &__controls {
-		display: block;
+		top: 100px;
 	}
 	&__hover {
 		position: absolute;
@@ -145,13 +146,13 @@
 		right: 0;
 		top: 0;
 		z-index: 5;
-		bottom: 0;
-		display: none;
+		bottom: 100%;
 		background: #fff;
 		opacity: 0.8;
+		transition: bottom 0.25s;
 	}
 	&:hover &__hover {
-		display: block;
+		bottom: 0;
 	}
 	.to-cart {
 		display: block;

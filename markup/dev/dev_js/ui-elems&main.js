@@ -325,29 +325,49 @@ ui.initElems.push("filterSelects");
 
 ui.countInput = function () {
 	$(document).on('click','.count-input__more',function (e) {
-		var inp = $(this).siblings('input');
-		inp.val(newCountValue(inp.val(),1));
+		var inp = $(this).siblings('input'),
+			min = Number(inp.attr('data-min')),
+			max = Number(inp.attr('data-max'));
+		inp.val(newCountValue(inp.val(),1,min,max));
+		inp.trigger({
+			'type':'change.count',
+			'value':inp.val()
+		});
 		e.preventDefault();
 	});
 	$(document).on('click','.count-input__less',function (e) {
-		var inp = $(this).siblings('input');
-		inp.val(newCountValue(inp.val(),-1));
+		var inp = $(this).siblings('input'),
+			min = Number(inp.attr('data-min')),
+			max = Number(inp.attr('data-max'));
+		inp.val(newCountValue(inp.val(),-1,min,max));
+		inp.trigger({
+			'type':'change.count',
+			'value':inp.val()
+		});
 		e.preventDefault();
 	});
 	$(document).on('change','.count-input input',function () {
-		var inp = $(this);
-		inp.val(newCountValue(inp.val(),0));
+		var inp = $(this),
+			min = Number(inp.attr('data-min')),
+			max = Number(inp.attr('data-max'));
+		inp.val(newCountValue(inp.val(),0,min,max));
+		inp.trigger({
+			'type':'change.count',
+			'value':inp.val()
+		});
 	});
 }
-function newCountValue(value, inc) {
+function newCountValue(value, inc,min,max) {
 	var val = parseInt(value)+inc;
 	if (isNaN(val)){
-		if(inc>0)
-			return inc;
+		if(min)
+			return min;
 		return 0;
 	} else {
-		if (val<0)
-			val = 0;
+		if (min && val<min)
+			val = min;
+		if (max && max <val)
+			val = max;
 		return val;
 	}
 }
