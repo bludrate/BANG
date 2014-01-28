@@ -16,7 +16,6 @@ ui.basket = function () {
 		}).find('.count-input input').on('change.count',function (e) {
 			var tr = $(this).closest('tr'),
 				price = (Number(tr.find('.basket__price').text().replace(/[^0-9]/g,""))*e.value).toString();
-			totalPrice = 0;
 			if (!isNaN(Number(price)))
 				tr.find('.basket__sum').text(price.replace(/(\d)(?=(\d\d\d)+([^\d]|$))/g, '$1 ')+" "+currency+".");
 			totalPrice = 0;
@@ -26,6 +25,5 @@ ui.basket = function () {
 			totalPriceElem.text(totalPrice.toString().replace(/(\d)(?=(\d\d\d)+([^\d]|$))/g, '$1 ')+" "+currency+".");
 		});
 	});
-	
 }
 ui.initElems.push("basket");
