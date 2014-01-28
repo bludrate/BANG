@@ -446,9 +446,9 @@ ui.searchList = function () {
 }
 ui.initElems.push('searchList');
 
-ui.popup = function popup(){
+ui.popup = function(){
 	var popups = $('.popup-holder'),
-		_this = this;
+		_this = this.popup;
 	popups.each(function() {
 		_this.popupHolder = $(this);
 		if (_this.popupHolder){

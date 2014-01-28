@@ -4,6 +4,22 @@
 		"selected_items":
 		[
 			[
+				"pop",
+				"popupGallery"
+			],
+			[
+				"popp",
+				"popupId"
+			],
+			[
+				"pro",
+				"productGeneral"
+			],
+			[
+				"pr",
+				"productGeneral"
+			],
+			[
 				"totl",
 				"totalPriceElem"
 			],
@@ -18,10 +34,6 @@
 			[
 				"progre",
 				"progressElem"
-			],
-			[
-				"pro",
-				"progressTimeUpdate"
 			],
 			[
 				"prog",
@@ -143,7 +155,23 @@
 			"file": "dev/html_blocks/shopping-flow.html",
 			"settings":
 			{
-				"buffer_size": 10458,
+				"buffer_size": 10506,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "dev/html_blocks/bottom.html",
+			"settings":
+			{
+				"buffer_size": 345,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "dev/html_blocks/head.html",
+			"settings":
+			{
+				"buffer_size": 667,
 				"line_ending": "Unix"
 			}
 		},
@@ -151,7 +179,7 @@
 			"file": "dev/html_blocks/product-page.html",
 			"settings":
 			{
-				"buffer_size": 10615,
+				"buffer_size": 10725,
 				"line_ending": "Unix"
 			}
 		},
@@ -159,7 +187,7 @@
 			"file": "dev/dev_js/product-page&main.js",
 			"settings":
 			{
-				"buffer_size": 174,
+				"buffer_size": 1156,
 				"line_ending": "Windows"
 			}
 		},
@@ -167,7 +195,7 @@
 			"file": "dev/dev_js/basket&main.js",
 			"settings":
 			{
-				"buffer_size": 1244,
+				"buffer_size": 1223,
 				"line_ending": "Windows"
 			}
 		},
@@ -183,7 +211,7 @@
 			"file": "dev/dev_js/ui-elems&main.js",
 			"settings":
 			{
-				"buffer_size": 12736,
+				"buffer_size": 17180,
 				"line_ending": "Windows"
 			}
 		},
@@ -191,7 +219,7 @@
 			"file": "dev/dev_js/mini-cart&main.js",
 			"settings":
 			{
-				"buffer_size": 521,
+				"buffer_size": 2479,
 				"line_ending": "Windows"
 			}
 		},
@@ -279,7 +307,7 @@
 			"file": "dev/stylus/main.styl",
 			"settings":
 			{
-				"buffer_size": 2531,
+				"buffer_size": 2534,
 				"line_ending": "Windows"
 			}
 		},
@@ -295,7 +323,7 @@
 			"file": "dev/stylus/product-page.styl",
 			"settings":
 			{
-				"buffer_size": 6771,
+				"buffer_size": 6823,
 				"line_ending": "Windows"
 			}
 		},
@@ -313,14 +341,6 @@
 			{
 				"buffer_size": 802,
 				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "dev/html_blocks/bottom.html",
-			"settings":
-			{
-				"buffer_size": 345,
-				"line_ending": "Unix"
 			}
 		}
 	],
@@ -364,6 +384,7 @@
 	},
 	"file_history":
 	[
+		"/D/Dropbox/work/BANG/markup/dev/dev_js/product-page&main.js",
 		"/E/Dropbox/work/BANG/markup/dev/dev_js/cart&main.js",
 		"/E/Dropbox/work/BANG/markup/dev/dev_js/article-gallery&main.js",
 		"/E/Dropbox/work/BANG/markup/dev/dev_js/mini-cart&main.js",
@@ -490,8 +511,7 @@
 		"/D/Dropbox/work/BANG/markup/dev/stylus/breadcrumbs.styl",
 		"/D/Dropbox/work/BANG/markup/dev/stylus/colors.styl",
 		"/D/Dropbox/work/BANG/markup/dev/stylus/compare.styl",
-		"/D/Dropbox/work/BANG/markup/dev/stylus/contacts.styl",
-		"/D/Dropbox/work/BANG/markup/Gruntfile.js"
+		"/D/Dropbox/work/BANG/markup/dev/stylus/contacts.styl"
 	],
 	"find":
 	{
@@ -667,7 +687,7 @@
 	"groups":
 	[
 		{
-			"selected": 0,
+			"selected": 4,
 			"sheets":
 			[
 				{
@@ -676,15 +696,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 10458,
+						"buffer_size": 10506,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								6877,
-								6877
+								4499,
+								4499
 							]
 						],
 						"settings":
@@ -693,93 +713,32 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 1458.0,
+						"translation.y": 1492.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 1,
+					"stack_index": 7,
 					"type": "text"
 				},
 				{
 					"buffer": 1,
-					"file": "dev/html_blocks/product-page.html",
+					"file": "dev/html_blocks/bottom.html",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 10615,
+						"buffer_size": 345,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								10340,
-								10340
+								187,
+								187
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/HTML/HTML.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 3178.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 19,
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "dev/dev_js/product-page&main.js",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 174,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								174,
-								174
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 5,
-					"type": "text"
-				},
-				{
-					"buffer": 3,
-					"file": "dev/dev_js/basket&main.js",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1244,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								376,
-								376
-							],
-							[
-								998,
-								998
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
+							"syntax": "Packages/HTML/HTML.tmLanguage"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -789,7 +748,122 @@
 					"type": "text"
 				},
 				{
+					"buffer": 2,
+					"file": "dev/html_blocks/head.html",
+					"semi_transient": true,
+					"settings":
+					{
+						"buffer_size": 667,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 6,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "dev/html_blocks/product-page.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 10725,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								9975,
+								9975
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 4351.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
 					"buffer": 4,
+					"file": "dev/dev_js/product-page&main.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1156,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								664,
+								664
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "dev/dev_js/basket&main.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1223,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 9,
+					"type": "text"
+				},
+				{
+					"buffer": 6,
 					"file": "dev/stylus/menu.styl",
 					"semi_transient": false,
 					"settings":
@@ -815,24 +889,24 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 3,
+					"stack_index": 8,
 					"type": "text"
 				},
 				{
-					"buffer": 5,
+					"buffer": 7,
 					"file": "dev/dev_js/ui-elems&main.js",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 12736,
+						"buffer_size": 17180,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								11451,
-								11451
+								14549,
+								14549
 							]
 						],
 						"settings":
@@ -840,20 +914,20 @@
 							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
 							"translate_tabs_to_spaces": false
 						},
-						"translation.x": 37.0,
-						"translation.y": 4326.0,
+						"translation.x": 0.0,
+						"translation.y": 7556.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 2,
+					"stack_index": 1,
 					"type": "text"
 				},
 				{
-					"buffer": 6,
+					"buffer": 8,
 					"file": "dev/dev_js/mini-cart&main.js",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 521,
+						"buffer_size": 2479,
 						"regions":
 						{
 						},
@@ -873,11 +947,11 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 6,
+					"stack_index": 10,
 					"type": "text"
 				},
 				{
-					"buffer": 7,
+					"buffer": 9,
 					"file": "dev/dev_js/slider&main.js",
 					"semi_transient": false,
 					"settings":
@@ -902,11 +976,11 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 14,
+					"stack_index": 18,
 					"type": "text"
 				},
 				{
-					"buffer": 8,
+					"buffer": 10,
 					"file": "dev/dev_js/footer-map&main.js",
 					"semi_transient": false,
 					"settings":
@@ -924,17 +998,18 @@
 						],
 						"settings":
 						{
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 10,
+					"stack_index": 14,
 					"type": "text"
 				},
 				{
-					"buffer": 9,
+					"buffer": 11,
 					"file": "dev/dev_js/gallery&main.js",
 					"semi_transient": false,
 					"settings":
@@ -959,11 +1034,11 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 7,
+					"stack_index": 11,
 					"type": "text"
 				},
 				{
-					"buffer": 10,
+					"buffer": 12,
 					"file": "dev/html_blocks/slider.html",
 					"semi_transient": false,
 					"settings":
@@ -988,7 +1063,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 16,
+					"stack_index": 20,
 					"type": "text"
 				}
 			]
@@ -998,7 +1073,7 @@
 			"sheets":
 			[
 				{
-					"buffer": 11,
+					"buffer": 13,
 					"file": "dev/stylus/product-list.styl",
 					"semi_transient": false,
 					"settings":
@@ -1023,11 +1098,11 @@
 						"translation.y": 1554.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 13,
+					"stack_index": 17,
 					"type": "text"
 				},
 				{
-					"buffer": 12,
+					"buffer": 14,
 					"file": "dev/stylus/footer-map.styl",
 					"semi_transient": false,
 					"settings":
@@ -1053,11 +1128,11 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 11,
+					"stack_index": 15,
 					"type": "text"
 				},
 				{
-					"buffer": 13,
+					"buffer": 15,
 					"file": "dev/dev_js/script&main.js",
 					"semi_transient": false,
 					"settings":
@@ -1081,11 +1156,11 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 12,
+					"stack_index": 16,
 					"type": "text"
 				},
 				{
-					"buffer": 14,
+					"buffer": 16,
 					"file": "dev/stylus/header.styl",
 					"semi_transient": false,
 					"settings":
@@ -1110,11 +1185,11 @@
 						"translation.y": 4457.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 9,
+					"stack_index": 13,
 					"type": "text"
 				},
 				{
-					"buffer": 15,
+					"buffer": 17,
 					"file": "dev/stylus/gallery.styl",
 					"semi_transient": false,
 					"settings":
@@ -1139,11 +1214,11 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 8,
+					"stack_index": 12,
 					"type": "text"
 				},
 				{
-					"buffer": 16,
+					"buffer": 18,
 					"file": "dev/stylus/ui.styl",
 					"semi_transient": false,
 					"settings":
@@ -1168,24 +1243,24 @@
 						"translation.y": 11695.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 18,
+					"stack_index": 22,
 					"type": "text"
 				},
 				{
-					"buffer": 17,
+					"buffer": 19,
 					"file": "dev/stylus/main.styl",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 2531,
+						"buffer_size": 2534,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								385,
-								385
+								0,
+								0
 							]
 						],
 						"settings":
@@ -1197,11 +1272,11 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 17,
+					"stack_index": 21,
 					"type": "text"
 				},
 				{
-					"buffer": 18,
+					"buffer": 20,
 					"file": "dev/stylus/slider.styl",
 					"semi_transient": false,
 					"settings":
@@ -1226,24 +1301,24 @@
 						"translation.y": 672.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 15,
+					"stack_index": 19,
 					"type": "text"
 				},
 				{
-					"buffer": 19,
+					"buffer": 21,
 					"file": "dev/stylus/product-page.styl",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 6771,
+						"buffer_size": 6823,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								5896,
-								5896
+								5836,
+								5836
 							]
 						],
 						"settings":
@@ -1252,14 +1327,14 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 4436.0,
+						"translation.y": 5456.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 0,
+					"stack_index": 2,
 					"type": "text"
 				},
 				{
-					"buffer": 20,
+					"buffer": 22,
 					"file": "dev/stylus/short-menu.styl",
 					"semi_transient": false,
 					"settings":
@@ -1284,11 +1359,11 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 21,
+					"stack_index": 23,
 					"type": "text"
 				},
 				{
-					"buffer": 21,
+					"buffer": 23,
 					"file": "dev/stylus/shopping-flow.styl",
 					"semi_transient": false,
 					"settings":
@@ -1313,35 +1388,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 22,
-					"type": "text"
-				},
-				{
-					"buffer": 22,
-					"file": "dev/html_blocks/bottom.html",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 345,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								187,
-								187
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/HTML/HTML.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 20,
+					"stack_index": 5,
 					"type": "text"
 				}
 			]

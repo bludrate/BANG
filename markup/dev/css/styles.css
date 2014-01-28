@@ -5445,6 +5445,10 @@ td.compare-list__brand {
   position: relative;
   background: #fff;
   overflow: hidden;
+  left: auto;
+  width: auto;
+  margin: 0;
+  padding: 0;
 }
 
 .product-popup .popup__close {

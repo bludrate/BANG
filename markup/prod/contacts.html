@@ -47,7 +47,7 @@
 	<div class="content-wrapper">
 		<section class="header-info">
 			<div class="logo"><a href="#"><img src="img/logo.png" alt=""></a></div>
-			<div class="mini-cart">
+			<div class="mini-cart" data-currency="грн">
 				<a href="#" class="mini-cart__opener">Ваша корзина</a>
 				<form action="#" class="mini-cart__drop">
 					<fieldset>
@@ -398,7 +398,7 @@
 					<div class="contacts__ask">
 						<h2 class="contacts__ask-title">У Вас есть вопрос, проблема <br/>
 					или идея?</h2>
-						<a href="#" class="blue-btn">Напишите письмо!</a>
+						<a href="#" class="blue-btn" rel="popup[feedback-popup]">Напишите письмо!</a>
 					</div>
 			</aside>
 			<section class="contacts__info">
@@ -562,7 +562,7 @@
 </nav>
 <div class="popup-holder">
 	<span class="popup-holder__bg">&nbsp;</span>
-	<div class="popup popup_feedback">
+	<div class="popup popup_feedback" id="feedback-popup">
 	<a href="#" class="popup__close">close</a>
 	<h2 class="popup__title">У Вас есть вопрос, проблема или идея?</h2>
 	<form action="#" class='form'>
