@@ -48,7 +48,14 @@
         }
         &__visual {
             height: 150px;
-            margin: 0 0 5px;
+            display: table-cell;
+            vertical-align: middle;
+            &-holder {
+                display: table;
+                width: 100%;
+                text-align: center;
+                margin: 0 0 5px;
+            }
             img {
                 max-width: 100%;
             }

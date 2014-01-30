@@ -24,7 +24,8 @@
 .product__price-through,
 .view-type-ico,
 .header-info__phone,
-.compare-list__remove-btn {
+.compare-list__remove-btn,
+.gallery__switchers-item {
   display: inline;
 }
 

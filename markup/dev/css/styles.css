@@ -3456,6 +3456,14 @@ tbody td.basket__count {
 
 .brands-list__visual {
   height: 150px;
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.brands-list__visual-holder {
+  display: table;
+  width: 100%;
+  text-align: center;
   margin: 0 0 5px;
 }
 

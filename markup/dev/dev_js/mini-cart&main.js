@@ -1,7 +1,8 @@
 ui.miniCart = function () {
 	var miniCart = $('.mini-cart');
-	miniCart.on("click",'.mini-cart__opener', function () {
+	miniCart.on("click",'.mini-cart__opener', function (e) {
 		miniCart.toggleClass('mini-cart_active');
+		e.preventDefault();
 	});
 	$(document).on('click',function (e) {
 		if (!$(e.target).closest('.mini-cart').size() && !$(e.target).is('.mini-cart__delete')){
