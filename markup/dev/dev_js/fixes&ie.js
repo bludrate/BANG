@@ -25,4 +25,7 @@ $(function () {
 			$(this).parent().removeClass('checked');
 		}
 	});
-})
+});
+$(function () {
+	$('input[placeholder], textarea[placeholder]').placeholder();
+});

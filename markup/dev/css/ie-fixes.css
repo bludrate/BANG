@@ -25,7 +25,8 @@
 .view-type-ico,
 .header-info__phone,
 .compare-list__remove-btn,
-.gallery__switchers-item {
+.gallery__switchers-item,
+.product-general__switchers-item {
   display: inline;
 }
 

@@ -4,7 +4,10 @@
 	<meta charset=utf-8 />
 
 	<title>BANG</title>
-	<link rel="stylesheet" href="css/styles.min.css" />
+	<!--[if gt IE 7]><!--><link rel="stylesheet" href="css/styles.min.css"/><!--<![endif]-->
+	<!--[if lte IE 7]>
+		<link rel="stylesheet" href="css/ie.min.css">
+	<![endif]-->
 	<!--[if lte IE 8]>
 		<script type="text/javascript">
 			document.createElement('header');
@@ -14,12 +17,7 @@
 			document.createElement('aside');
 			document.createElement('footer');
 			document.createElement('figure');
-			document.createElement('figcaption');
 		</script>
-		<link rel="stylesheet" href="css/ie8.css" />
-	<![endif]-->
-	<!--[if lt IE 8]>
-		<link rel="stylesheet" href="css/ie7.css" />
 	<![endif]-->
 </head>
 <body>
@@ -677,6 +675,9 @@
 	<script src="js/libs/sly.min.js"></script>
 	<script src="js/libs/select.js"></script>
 	<script src="js/libs/jquery.roundabout.min.js"></script>
+	<!--[if lte IE 9]>
+		<script type="text/javascript" src="js/libs/jquery.placeholder.min.js"></script>
+	<![endif]-->
 	<script src="js/script.min.js"></script>
 	<!--[if lte IE 8]>
 		<script type="text/javascript" src="js/ie.js"></script>

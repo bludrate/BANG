@@ -4,7 +4,10 @@
 	<meta charset=utf-8 />
 
 	<title>BANG</title>
-	<link rel="stylesheet" href="css/styles.css" />
+	<!--[if gt IE 7]><!--><link rel="stylesheet" href="css/styles.css"/><!--<![endif]-->
+	<!--[if lte IE 7]>
+		<link rel="stylesheet" href="css/ie.css">
+	<![endif]-->
 	<!--[if lte IE 8]>
 		<script type="text/javascript">
 			document.createElement('header');
@@ -14,12 +17,7 @@
 			document.createElement('aside');
 			document.createElement('footer');
 			document.createElement('figure');
-			document.createElement('figcaption');
 		</script>
-		<link rel="stylesheet" href="css/ie8.css" />
-	<![endif]-->
-	<!--[if lt IE 8]>
-		<link rel="stylesheet" href="css/ie7.css" />
 	<![endif]-->
 </head>
 <body>
@@ -524,7 +522,7 @@
 				<ul class="h-product-list">
 	<li class="h-product-list__item">
 		<div class="h-product-list__visual">
-			<img src="temp/img55.jpg">
+			<a href="#"><img src="temp/img55.jpg"></a>
 		</div>
 		<div class="h-product-list__info">
 			<div class="h-product-list__holder">
@@ -548,7 +546,7 @@ B&amp;W Zeppelin Air</div>
 	</li>
 	<li class="h-product-list__item">
 		<div class="h-product-list__visual">
-			<img src="temp/img56.jpg">
+			<a href="#"><img src="temp/img56.jpg"></a>
 		</div>
 		<div class="h-product-list__info">
 			<div class="h-product-list__holder">
@@ -734,6 +732,9 @@ B&amp;W Zeppelin Air</div>
 	<script src="js/libs/sly.min.js"></script>
 	<script src="js/libs/select.js"></script>
 	<script src="js/libs/jquery.roundabout.min.js"></script>
+	<!--[if lte IE 9]>
+		<script type="text/javascript" src="js/libs/jquery.placeholder.min.js"></script>
+	<![endif]-->
 	<script src="js/main.js"></script>
 	<!--[if lte IE 8]>
 		<script type="text/javascript" src="js/ie.js"></script>

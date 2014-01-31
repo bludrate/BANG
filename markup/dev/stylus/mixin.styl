@@ -6,3 +6,10 @@ bg(u, x =0, y = 0, r = no-repeat, color = false) {
 	}
 	
 }
+opacity(n){
+  opacity: n;
+  if (support-for-ie){
+    -ms-filter: unquote('"progid:DXImageTransform.Microsoft.Alpha(Opacity=' + round(n * 100) + ')"');
+    filter: unquote('alpha(opacity=' + round(n * 100) + ')');
+  }
+}

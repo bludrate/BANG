@@ -1,6 +1,9 @@
 var htmlFilesForRelease = {
        'prod/index.html': 'prod/index.html'
     },
+    ieConcatFiles = {
+      'dev/css/ie.css':['dev/css/ie-styl.css','dev/css/ie-fixes.css']
+    },
     jsFiles = {
        'dev/js/main.js':["dev/dev_js/init&main.js","dev/dev_js/*&main.js"],
        'dev/js/ie.js':["dev/dev_js/*&ie.js"]
@@ -20,7 +23,8 @@ module.exports = function(grunt) {
     stylus: {
       compile: {
         files: {
-          "dev/css/styles.css" : ["dev/stylus/styles.styl"]
+          "dev/css/styles.css" : ["dev/stylus/styles.styl" ],
+          "dev/css/ie-styl.css" : ["dev/stylus/ie-styles.styl" ]
         },
         options: {
           compress:false
@@ -58,8 +62,10 @@ module.exports = function(grunt) {
           globals: {
             script_path: "js/main.js",
             styles_path: "css/styles.css",
-            img_path: "img",
-            temp_img_path:"temp"
+            ie_script_path: 'js/ie.js',
+            ie_styles_path: "css/ie.css",
+            temp_img_path:"temp",
+            img_path:"img"
           },
         },
         files: [
@@ -73,8 +79,10 @@ module.exports = function(grunt) {
           globals: {
             script_path: "js/script.min.js",
             styles_path: "css/styles.min.css",
-            img_path: "img",
-            temp_img_path:"temp"
+            ie_script_path: 'js/ie.min.js',
+            ie_styles_path: "css/ie.min.css",
+            temp_img_path:"temp",
+            img_path:"img"
           },
         },
         files: [
@@ -99,6 +107,13 @@ module.exports = function(grunt) {
     watch: {
       options: {
         livereload: LIVERELOAD_PORT
+      },
+      iecssconcat: {
+        files: ["dev/css/ie-styl.css","dev/css/ie-fixes.css"],
+        tasks: ['concat:iecss'],
+        options: {
+          spawn: false
+        }
       },
       stylus: {
         files: ["dev/stylus/*.styl" ],
@@ -126,7 +141,7 @@ module.exports = function(grunt) {
       minify: {
        expand: true,
        cwd: 'dev/css/',
-       src: ['*.css'],
+       src: ['*.css',"!ie-styl.css","!ie-fixes.css"],
        dest: 'prod/css/',
        ext: '.min.css'
      }
@@ -139,6 +154,9 @@ module.exports = function(grunt) {
     concat: {
       js:{
          files: jsFiles
+      },
+      iecss: {
+        files: ieConcatFiles
       }
     },
     autoprefixer: {
