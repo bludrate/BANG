@@ -3,6 +3,11 @@
   top: expression((body.offsetHeight-this.offsetHeight)/2 + "px");
 }
 
+.brands-list__visual {
+  position: relative;
+  top: expression((parentNode.offsetHeight-this.offsetHeight)/2 + "px");
+}
+
 .basket__product-visual,
 .basket__product,
 .basket__product-name,
@@ -22,20 +27,40 @@
 .compare-btn__ico,
 .product__info-box,
 .product__price-through,
-.view-type-ico,
 .header-info__phone,
+.view-type-ico,
 .compare-list__remove-btn,
 .gallery__switchers-item,
-.product-general__switchers-item {
+.product-general__switchers-item,
+.brand__title-aligner,
+.brand__logo,
+.brand__slogan {
   display: inline;
+  zoom: 1;
+}
+
+.basket__product {
+  cursor: pointer;
+}
+
+.view-type-ico {
+  float: left;
+}
+
+.brands-list {
+  margin-left: -1px;
 }
 
 .brands-list__item {
-  width: 24.999999%;
+  margin-right: -1px;
+  margin-left: 1px;
 }
 
 .product-filters__row,
-.current-filters {
+.current-filters,
+.mini-cart__costs-row,
+.mini-cart__list-item,
+.product-filters__view-settings {
   zoom: 1;
 }
 

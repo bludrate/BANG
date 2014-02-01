@@ -268,8 +268,6 @@ b {
   text-transform: uppercase;
   color: #444;
   opacity: 0.9;
-  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=90)";
-  filter: alpha(opacity=90);
   background: url("../img/ico04.png") 0 50% no-repeat;
 }
 
@@ -628,14 +626,11 @@ h2 {
   width: 13px;
   height: 13px;
   background: url("../img/delete.png") 0 0 no-repeat;
-  text-indent: -9999px;
-  overflow: hidden;
+  text-decoration: none;
 }
 
 .delete-btn:hover {
   opacity: 0.7;
-  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=70)";
-  filter: alpha(opacity=70);
 }
 
 .count-input {
@@ -737,22 +732,16 @@ h2 {
   -o-transition: opacity 0.2s;
   transition: opacity 0.2s;
   opacity: 0.5;
-  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
-  filter: alpha(opacity=50);
   background: url("../img/ico10.png") 50% 12px no-repeat;
 }
 
 .search-input__btn:hover {
   opacity: 1;
-  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
-  filter: alpha(opacity=100);
   background-position: 50% -54px;
 }
 
 .search-input__btn:active {
   opacity: 1;
-  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
-  filter: alpha(opacity=100);
   background-position: 50% -21px;
 }
 
@@ -767,8 +756,6 @@ h2 {
   border: solid #b1b1b1;
   border-width: 0 1px 1px;
   opacity: 0;
-  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
-  filter: alpha(opacity=0);
   padding: 0;
   font-size: 16px;
   line-height: 20px;
@@ -797,8 +784,6 @@ h2 {
 .search-input.active .search-input__drop {
   top: 100%;
   opacity: 1;
-  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
-  filter: alpha(opacity=100);
   -webkit-transition: opacity 0.2s, margin-top 0.2s;
   -o-transition: opacity 0.2s, margin-top 0.2s;
   transition: opacity 0.2s, margin-top 0.2s;
@@ -1236,8 +1221,6 @@ input.checkbox:checked + .checkbox span {
 
 .to-cart:hover {
   opacity: 0.85;
-  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=85)";
-  filter: alpha(opacity=85);
 }
 
 .to-cart_small {
@@ -1326,8 +1309,6 @@ input.checkbox:checked + .checkbox span {
 
 .placeholder {
   opacity: 0.7;
-  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=70)";
-  filter: alpha(opacity=70);
 }
 
 .country {
@@ -1463,8 +1444,6 @@ label.radio-btn {
 
 label.radio-btn .orange {
   opacity: 0.7;
-  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=70)";
-  filter: alpha(opacity=70);
 }
 
 input:checked + label.radio-btn {
@@ -1474,8 +1453,6 @@ input:checked + label.radio-btn {
 
 input:checked + label.radio-btn .orange {
   opacity: 1;
-  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
-  filter: alpha(opacity=100);
 }
 
 select.select {
@@ -1687,8 +1664,6 @@ select.select {
   background: #fff;
   left: -9999px;
   opacity: 0;
-  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
-  filter: alpha(opacity=0);
   margin: -4px 0 0 -133px;
   width: 235px;
   -webkit-transition: margin-top 0.2s, opacity 0.2s, left 0s 0.2s;
@@ -1712,8 +1687,6 @@ select.select {
 .mini-cart_active .mini-cart__drop {
   left: 50%;
   opacity: 1;
-  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
-  filter: alpha(opacity=100);
   -webkit-transition: margin-top 0.2s, opacity 0.2s;
   -o-transition: margin-top 0.2s, opacity 0.2s;
   transition: margin-top 0.2s, opacity 0.2s;
@@ -1832,8 +1805,6 @@ select.select {
 
 .mini-cart__delete:hover {
   opacity: 0.7;
-  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=70)";
-  filter: alpha(opacity=70);
 }
 
 .mini-cart_active .mini-cart__drop {
@@ -1976,8 +1947,6 @@ select.select {
   z-index: 20;
   margin: -14px 0 0;
   opacity: 0;
-  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
-  filter: alpha(opacity=0);
   left: -9999px;
   position: absolute;
   background: url("../img/arrow.gif") 0 0 no-repeat;
@@ -1992,8 +1961,6 @@ select.select {
   -o-transition: opacity 0.5s 0.1s, margin-top 0.4s 0.1s;
   transition: opacity 0.5s 0.1s, margin-top 0.4s 0.1s;
   opacity: 1;
-  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
-  filter: alpha(opacity=100);
   margin: 16px 0 0 0;
 }
 
@@ -2001,8 +1968,6 @@ select.select {
   margin-top: 45px;
   left: 0;
   opacity: 1;
-  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
-  filter: alpha(opacity=100);
   -webkit-transition: opacity 0.5s 0.1s, margin 0.4s 0.1s, left 0 0.1s;
   -o-transition: opacity 0.5s 0.1s, margin 0.4s 0.1s, left 0 0.1s;
   transition: opacity 0.5s 0.1s, margin 0.4s 0.1s, left 0 0.1s;
@@ -2015,8 +1980,6 @@ select.select {
   position: absolute;
   left: -9999px;
   opacity: 0;
-  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
-  filter: alpha(opacity=0);
   padding-top: 33px;
   width: 100%;
   border-top: 1px solid #1fa3ff;
@@ -2103,8 +2066,6 @@ select.select {
   width: 100%;
   height: 100%;
   opacity: 0;
-  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
-  filter: alpha(opacity=0);
   -webkit-transition: opacity 0.5s, z-index 0s 0.5s;
   -o-transition: opacity 0.5s, z-index 0s 0.5s;
   transition: opacity 0.5s, z-index 0s 0.5s;
@@ -2117,8 +2078,6 @@ select.select {
   -o-transition: z-index 0s 0.5s;
   transition: z-index 0s 0.5s;
   opacity: 1;
-  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
-  filter: alpha(opacity=100);
 }
 
 .promo-slider__bg {
@@ -2148,8 +2107,6 @@ select.select {
 
 .promo-slider__discount {
   opacity: 0.9;
-  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=90)";
-  filter: alpha(opacity=90);
   font-size: 24px;
   line-height: 30px;
   color: #444;
@@ -2224,8 +2181,6 @@ select.select {
 .promo-slider__switch-item_active .promo-slider__switch-text,
 .promo-slider__switch-item_active .promo-slider__switch-title {
   opacity: 1;
-  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
-  filter: alpha(opacity=100);
 }
 
 .promo-slider__switch-title {
@@ -2234,8 +2189,6 @@ select.select {
   display: block;
   letter-spacing: 3px;
   opacity: 0.5;
-  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
-  filter: alpha(opacity=50);
   font: 16px/24px "helveticaneuecyrthin", helvetica, arial, sans-serif;
 }
 
@@ -2243,8 +2196,6 @@ select.select {
   letter-spacing: 2px;
   font-size: 17px;
   opacity: 0.5;
-  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
-  filter: alpha(opacity=50);
   line-height: 24px;
   display: block;
 }
@@ -2472,8 +2423,6 @@ select.select {
   bottom: 100%;
   background: #fff;
   opacity: 0.8;
-  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=80)";
-  filter: alpha(opacity=80);
   -webkit-transition: bottom 0.25s;
   -o-transition: bottom 0.25s;
   transition: bottom 0.25s;
@@ -2523,8 +2472,6 @@ select.select {
 
 .product__in-compare {
   opacity: 0.6;
-  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=60)";
-  filter: alpha(opacity=60);
   cursor: default;
   padding-left: 60px;
   background-position: 26px 2px;
@@ -2802,8 +2749,6 @@ select.select {
 
 .menu__expander:hover {
   opacity: 0.8;
-  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=80)";
-  filter: alpha(opacity=80);
 }
 
 .menu_expand .menu__title.active .menu__expander {
@@ -3045,8 +2990,6 @@ select.select {
   min-width: 1000px;
   background: #fff;
   opacity: 0;
-  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
-  filter: alpha(opacity=0);
   z-index: 100;
   border-bottom: 1px solid #b5b5b5;
   border-bottom: 1px solid rgba(0,0,0,0.3);
@@ -3057,8 +3000,6 @@ select.select {
   -o-transition: top 0.2s, opacity 0.2s;
   transition: top 0.2s, opacity 0.2s;
   opacity: 1;
-  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
-  filter: alpha(opacity=100);
   left: 0;
   top: 0;
 }
@@ -3081,8 +3022,6 @@ select.select {
 
 .short-menu .mini-cart__opener:hover {
   opacity: 0.9;
-  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=90)";
-  filter: alpha(opacity=90);
 }
 
 .short-menu .nav__search-btn {
@@ -3120,8 +3059,6 @@ select.select {
 
 .compare-btn:hover {
   opacity: 0.9;
-  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=90)";
-  filter: alpha(opacity=90);
 }
 
 .compare-btn__ico {
@@ -3479,6 +3416,7 @@ tbody td.basket__count {
 
 .brands {
   overflow: hidden;
+  position: relative;
 }
 
 .brands-list {
@@ -3520,7 +3458,6 @@ tbody td.basket__count {
 }
 
 .brands-list__visual {
-  height: 150px;
   display: table-cell;
   vertical-align: middle;
 }
@@ -3528,6 +3465,7 @@ tbody td.basket__count {
 .brands-list__visual-holder {
   display: table;
   width: 100%;
+  height: 150px;
   text-align: center;
   margin: 0 0 5px;
 }
@@ -3546,8 +3484,14 @@ tbody td.basket__count {
   }
 }
 
+.w1440 .brands__list-item {
+  width: 20%;
+}
+
 .product-filters {
   margin-bottom: 29px;
+  position: relative;
+  z-index: 20;
 }
 
 .product-filters__row {
@@ -3767,6 +3711,14 @@ tbody td.basket__count {
   }
 }
 
+.w1440 .category_left-filters .product {
+  width: 33.33333333%;
+}
+
+.w1440 .category_left-filters .product_w2 {
+  width: 66.6666666%;
+}
+
 .current-filters {
   border-bottom: 1px solid #eaeaea;
   margin: 0 0 37px;
@@ -3971,8 +3923,6 @@ tbody td.basket__count {
   text-transform: uppercase;
   border-collapse: collapse;
   opacity: 0;
-  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
-  filter: alpha(opacity=0);
 }
 
 .compare__titles td {
@@ -3987,8 +3937,6 @@ tbody td.basket__count {
 
 .compare__titles.ready {
   opacity: 1;
-  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
-  filter: alpha(opacity=100);
 }
 
 .compare__frame {
@@ -4033,14 +3981,11 @@ tbody td.basket__count {
   height: 13px;
   vertical-align: top;
   background: url("../img/delete.png") 0 0 no-repeat;
-  text-indent: -9999px;
   overflow: hidden;
 }
 
 .compare-list__remove-btn:hover {
   opacity: 0.85;
-  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=85)";
-  filter: alpha(opacity=85);
 }
 
 .compare-list__visual {
@@ -4084,14 +4029,10 @@ td.compare-list__brand {
 .compare-list__brand-visual a {
   text-decoration: none;
   opacity: 0.5;
-  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
-  filter: alpha(opacity=50);
 }
 
 .compare-list__brand-visual a:hover {
   opacity: 1;
-  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
-  filter: alpha(opacity=100);
 }
 
 .compare-list__brand-visual img {
@@ -4101,8 +4042,6 @@ td.compare-list__brand {
 .compare-list__brand-country {
   font-size: 14px;
   opacity: 0.8;
-  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=80)";
-  filter: alpha(opacity=80);
 }
 
 .compare-list__description td {
@@ -4227,8 +4166,6 @@ td.compare-list__brand {
 .popup-holder__bg {
   background: #fff;
   opacity: 0.8;
-  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=80)";
-  filter: alpha(opacity=80);
   position: absolute;
   left: 0;
   top: 0;
@@ -4739,8 +4676,6 @@ td.compare-list__brand {
   float: left;
   position: relative;
   opacity: 0.6;
-  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=60)";
-  filter: alpha(opacity=60);
   -webkit-transition: opacity 0.25s;
   -o-transition: opacity 0.25s;
   transition: opacity 0.25s;
@@ -4749,8 +4684,6 @@ td.compare-list__brand {
 .gallery__item_active,
 .gallery__item:hover {
   opacity: 1;
-  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
-  filter: alpha(opacity=100);
 }
 
 .gallery__item img {
@@ -4771,8 +4704,6 @@ td.compare-list__brand {
   vertical-align: top;
   position: relative;
   opacity: 0.6;
-  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=60)";
-  filter: alpha(opacity=60);
   margin: -2px;
   -webkit-transition: opacity 0.25s;
   -o-transition: opacity 0.25s;
@@ -4781,8 +4712,6 @@ td.compare-list__brand {
 
 .gallery__switchers-item_active {
   opacity: 1;
-  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
-  filter: alpha(opacity=100);
   margin-top: -4px;
 }
 
@@ -4793,8 +4722,6 @@ td.compare-list__brand {
 
 .gallery__switchers-item:hover {
   opacity: 1;
-  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
-  filter: alpha(opacity=100);
 }
 
 .gallery__switchers-item a {
@@ -5320,8 +5247,6 @@ td.compare-list__brand {
   min-height: 100%;
   height: auto;
   opacity: 0;
-  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
-  filter: alpha(opacity=0);
   -webkit-transition: opacity 0.5s, z-index 0s 0.5s;
   -o-transition: opacity 0.5s, z-index 0s 0.5s;
   transition: opacity 0.5s, z-index 0s 0.5s;
@@ -5334,8 +5259,6 @@ td.compare-list__brand {
   -o-transition: z-index 0s 0.5s;
   transition: z-index 0s 0.5s;
   opacity: 1;
-  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
-  filter: alpha(opacity=100);
 }
 
 .product-general__switchers {
@@ -5355,15 +5278,11 @@ td.compare-list__brand {
   margin-left: 10px;
   margin-top: 8px;
   opacity: 0.7;
-  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=70)";
-  filter: alpha(opacity=70);
 }
 
 .product-general__switchers-item.active,
 .product-general__switchers-item:hover {
   opacity: 1;
-  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
-  filter: alpha(opacity=100);
 }
 
 .product-general__switchers-item img {
@@ -5658,8 +5577,6 @@ td.compare-list__brand {
   margin: 0;
   left: auto;
   opacity: 1;
-  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
-  filter: alpha(opacity=100);
 }
 
 .your-order:after {

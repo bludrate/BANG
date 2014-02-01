@@ -63,6 +63,7 @@ module.exports = function(grunt) {
             script_path: "js/main.js",
             styles_path: "css/styles.css",
             ie_script_path: 'js/ie.js',
+            ie8_script_path: "js/ie8.js",
             ie_styles_path: "css/ie.css",
             temp_img_path:"temp",
             img_path:"img"
@@ -80,6 +81,7 @@ module.exports = function(grunt) {
             script_path: "js/script.min.js",
             styles_path: "css/styles.min.css",
             ie_script_path: 'js/ie.min.js',
+            ie8_script_path: "js/ie8.min.js",
             ie_styles_path: "css/ie.min.css",
             temp_img_path:"temp",
             img_path:"img"

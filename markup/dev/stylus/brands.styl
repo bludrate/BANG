@@ -14,6 +14,7 @@
 }
 .brands {
     overflow: hidden;
+    position: relative;
     &-list {
         list-style: none;
         padding: 0;
@@ -47,12 +48,12 @@
             }
         }
         &__visual {
-            height: 150px;
             display: table-cell;
             vertical-align: middle;
             &-holder {
                 display: table;
                 width: 100%;
+                height: 150px;
                 text-align: center;
                 margin: 0 0 5px;
             }
@@ -71,4 +72,7 @@
             width: 20%;
         }
     }
+}
+.w1440 .brands__list-item {
+    width: 20%;
 }
