@@ -71,6 +71,19 @@
 		text-transform: uppercase;
 		margin: 0 0 11px;
 		color: $darkColor2;
+		position: relative;
+		z-index: 2;
+
+		&:before {
+			content: '';
+			position: absolute;
+			left: 20px;
+			top: 50%;
+			right: 20px;
+			height: 0;
+			z-index: -1;
+			box-shadow: 0 0 60px 26px #fff;
+		}
 	}
 	.product_w2 &__title {
 		font-size: 18px;
@@ -104,9 +117,9 @@
 		}
 	}
 	&__visual {
+		text-align: right;
 		img {
-			width: 100%;
-			height: auto;
+			vertical-align: top;
 		}
 	}
 	&__ico {
@@ -183,6 +196,7 @@
 		font-size: 17px;
 		line-height: 18px;
 		text-align: left;
+		margin-bottom: 10px;
 	}
 	&__compare-btn:hover {
 		color: $blue;
@@ -193,6 +207,13 @@
 		cursor: default;
 		padding-left: 60px;
 		background-position: 26px 2px;
+	}
+	&__readmore-btn {
+		width: 157px;
+		font-size: 13px;
+		.h-product-list & {
+			width: 141px;
+		}
 	}
 }
 .h-product-list {

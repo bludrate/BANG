@@ -4,10 +4,6 @@
 		"selected_items":
 		[
 			[
-				"che",
-				"checkWidth"
-			],
-			[
 				"pop",
 				"popupGallery"
 			],
@@ -155,30 +151,6 @@
 	},
 	"buffers":
 	[
-		{
-			"file": "dev/stylus/brands.styl",
-			"settings":
-			{
-				"buffer_size": 1781,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "dev/stylus/compare.styl",
-			"settings":
-			{
-				"buffer_size": 2471,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "dev/html_blocks/compare.html",
-			"settings":
-			{
-				"buffer_size": 5144,
-				"line_ending": "Unix"
-			}
-		}
 	],
 	"build_system": "Packages/Stylus/Stylus.sublime-build",
 	"command_palette":
@@ -220,28 +192,17 @@
 	},
 	"file_history":
 	[
-		"/E/Dropbox/work/BANG/markup/dev/stylus/product-filters.styl",
-		"/E/Dropbox/work/BANG/markup/dev/dev_js/script&main.js",
-		"/E/Dropbox/work/BANG/markup/Gruntfile.js",
-		"/E/Dropbox/work/BANG/markup/dev/html_blocks/bottom.html",
-		"/E/Dropbox/work/BANG/markup/dev/dev_js/fixes&ie.js",
-		"/E/Dropbox/work/BANG/markup/dev/stylus/ui.styl",
-		"/E/Dropbox/work/BANG/markup/dev/html_blocks/header.html",
-		"/E/Dropbox/work/BANG/markup/dev/html_blocks/basket.html",
-		"/E/Dropbox/work/BANG/markup/dev/stylus/styles.styl",
-		"/E/Dropbox/work/BANG/markup/dev/stylus/mixin.styl",
-		"/E/Dropbox/work/BANG/markup/dev/stylus/ie-styles.styl",
-		"/E/Dropbox/work/BANG/markup/dev/css/ie-fixes.css",
-		"/E/Dropbox/work/BANG/markup/dev/dev_js/fixes&ie8.js",
-		"/E/Dropbox/work/BANG/markup/dev/js/ie8.js",
-		"/E/Dropbox/work/BANG/markup/dev/css/ie.css",
-		"/E/Dropbox/work/BANG/markup/dev/css/styles.css",
+		"/D/Dropbox/work/BANG/markup/dev/dev_js/fixes&ie.js",
+		"/D/Dropbox/work/BANG/markup/dev/html_blocks/bottom.html",
+		"/D/Dropbox/work/BANG/markup/dev/html_blocks/head.html",
+		"/D/Dropbox/work/BANG/markup/dev/stylus/ui.styl",
+		"/D/Dropbox/work/BANG/markup/dev/js/libs/jquery.placeholder.min.js",
+		"/D/Dropbox/work/BANG/markup/prod/js/libs/jquery.placeholder.min.js",
+		"/D/Dropbox/work/BANG/markup/Gruntfile.js",
 		"/D/Dropbox/work/BANG/markup/dev/stylus/ie-styles.styl",
 		"/D/Dropbox/work/BANG/markup/dev/stylus/styles.styl",
 		"/D/Dropbox/work/BANG/markup/dev/product-page.html",
 		"/D/Dropbox/work/BANG/markup/dev/css/ie.css",
-		"/D/Dropbox/work/BANG/markup/Gruntfile.js",
-		"/D/Dropbox/work/BANG/markup/dev/html_blocks/head.html",
 		"/D/Work/kztc-cab/markup/Gruntfile.js",
 		"/D/Work/kztc-cab/markup/dev/html_blocks/head.html",
 		"/D/Work/kztc-cab/markup/dev/enter.html",
@@ -258,7 +219,6 @@
 		"/D/Dropbox/work/BANG/markup/dev/dev_js/script&main.js",
 		"/D/Dropbox/work/BANG/markup/dev/stylus/header.styl",
 		"/D/Dropbox/work/BANG/markup/dev/stylus/gallery.styl",
-		"/D/Dropbox/work/BANG/markup/dev/stylus/ui.styl",
 		"/D/Dropbox/work/BANG/markup/dev/stylus/main.styl",
 		"/D/Dropbox/work/BANG/markup/dev/stylus/slider.styl",
 		"/D/Dropbox/work/BANG/markup/dev/stylus/product-page.styl",
@@ -271,12 +231,13 @@
 		"/D/Dropbox/work/BANG/markup/dev/stylus/menu.styl",
 		"/D/Dropbox/work/BANG/markup/dev/dev_js/basket&main.js",
 		"/D/Dropbox/work/BANG/markup/dev/html_blocks/shopping-flow.html",
-		"/D/Dropbox/work/BANG/markup/dev/html_blocks/bottom.html",
 		"/D/Dropbox/work/BANG/markup/dev/html_blocks/product-page.html",
 		"/D/Dropbox/work/BANG/markup/dev/dev_js/product-page&main.js",
 		"/E/Dropbox/work/BANG/markup/dev/dev_js/cart&main.js",
 		"/E/Dropbox/work/BANG/markup/dev/dev_js/article-gallery&main.js",
 		"/E/Dropbox/work/BANG/markup/dev/dev_js/mini-cart&main.js",
+		"/E/Dropbox/work/BANG/markup/dev/dev_js/script&main.js",
+		"/E/Dropbox/work/BANG/markup/Gruntfile.js",
 		"/E/Dropbox/work/BANG/markup/dev/dev_js/product-page$main.js",
 		"/E/Dropbox/work/BANG/markup/dev/js/libs/select.js",
 		"/E/Dropbox/KZTC-CAB/markup/dev/html_blocks/registration.html",
@@ -308,8 +269,10 @@
 		"/E/Dropbox/work/BANG/markup/dev/stylus/normalize.styl",
 		"/E/Dropbox/work/BANG/markup/dev/pages/product-page.html",
 		"/E/Dropbox/work/BANG/markup/dev/html_blocks/product-page.html",
+		"/E/Dropbox/work/BANG/markup/dev/stylus/styles.styl",
 		"/E/Dropbox/work/BANG/markup/dev/stylus/product.styl",
 		"/E/Dropbox/work/BANG/markup/dev/stylus/search-results.styl",
+		"/E/Dropbox/work/BANG/markup/dev/stylus/ui.styl",
 		"/E/Dropbox/work/BANG/markup/dev/stylus/sale.styl",
 		"/E/Dropbox/work/BANG/markup/dev/stylus/product-list.styl",
 		"/E/Dropbox/work/BANG/markup/dev/html_blocks/sale.html",
@@ -333,9 +296,11 @@
 		"/E/Dropbox/work/BANG/markup/dev/pages/sale-list.html",
 		"/E/Dropbox/work/BANG/markup/dev/pages/brands.html",
 		"/E/Dropbox/work/BANG/markup/dev/stylus/gallery.styl",
+		"/E/Dropbox/work/BANG/markup/dev/stylus/product-filters.styl",
 		"/E/Dropbox/work/BANG/markup/dev/stylus/article.styl",
 		"/E/Dropbox/work/BANG/markup/dev/stylus/brand.styl",
 		"/E/Dropbox/work/BANG/markup/dev/stylus/compare.styl",
+		"/E/Dropbox/work/BANG/markup/dev/html_blocks/bottom.html",
 		"/E/Dropbox/work/BANG/markup/dev/pages/compare.html",
 		"/E/Dropbox/work/BANG/markup/dev/html_blocks/article.html",
 		"/E/Dropbox/work/BANG/markup/dev/html_blocks/brand.html",
@@ -347,18 +312,24 @@
 		"/E/Dropbox/work/BANG/markup/dev/pages/brand.html",
 		"/E/Dropbox/work/BANG/markup/dev/stylus/popups.styl",
 		"/E/Dropbox/work/BANG/markup/dev/stylus/delivery.styl",
-		"/E/Dropbox/work/BANG/markup/dev/stylus/colors.styl"
+		"/E/Dropbox/work/BANG/markup/dev/stylus/colors.styl",
+		"/E/Dropbox/work/BANG/markup/dev/stylus/products-catalogue.styl",
+		"/E/Dropbox/work/BANG/markup/dev/html_blocks/feedback-popup.html",
+		"/E/Dropbox/work/BANG/markup/dev/pages/delivery.html",
+		"/E/Dropbox/work/BANG/markup/dev/html_blocks/delivery.html",
+		"/E/Dropbox/work/BANG/markup/dev/pages/products-catalogue.html",
+		"/E/Dropbox/work/BANG/markup/dev/html_blocks/product-catalogue.html",
+		"/E/Dropbox/work/BANG/markup/dev/dev_js/ui-elems&main.js"
 	],
 	"find":
 	{
-		"height": 34.0
+		"height": 43.0
 	},
 	"find_in_files":
 	{
 		"height": 392.0,
 		"where_history":
 		[
-			"*.styl",
 			"*.html",
 			"*.styl",
 			"*.html",
@@ -372,19 +343,7 @@
 		"case_sensitive": false,
 		"find_history":
 		[
-			"class=\"text-input\"",
-			"btn",
-			">delete<",
-			"delete",
-			"brand__logo",
-			"brand__title-aligner",
-			"66%",
-			"media",
-			"view",
-			".view-type-ico",
-			"remove",
-			">remove<",
-			"remove",
+			"input",
 			"concat",
 			"stylus",
 			"conc",
@@ -499,7 +458,19 @@
 			"product-list__price",
 			"product-list__title",
 			"product-list__info",
-			"product-list__visual"
+			"product-list__visual",
+			"product-list__item",
+			"span",
+			"div",
+			".fr.ie8 .mood-page_winter-car-storage",
+			"Hockey with the Choi Family For Eddie Choi, hockey means everything. He’s passed down his love of the game to his kids. Watch their story.",
+			"\"title\":\"some\"",
+			"255",
+			"236px",
+			"336px",
+			"8px",
+			"span",
+			"section"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -525,115 +496,13 @@
 	"groups":
 	[
 		{
-			"selected": 0,
 			"sheets":
 			[
-				{
-					"buffer": 0,
-					"file": "dev/stylus/brands.styl",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1781,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1781,
-								1781
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/SCSS/SCSS.tmLanguage",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 192.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "dev/stylus/compare.styl",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 2471,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1342,
-								1348
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/SCSS/SCSS.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 551.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 1,
-					"type": "text"
-				}
 			]
 		},
 		{
-			"selected": 0,
 			"sheets":
 			[
-				{
-					"buffer": 2,
-					"file": "dev/html_blocks/compare.html",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 5144,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1098,
-								1098
-							],
-							[
-								1651,
-								1651
-							],
-							[
-								2217,
-								2217
-							],
-							[
-								2769,
-								2769
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/HTML/HTML.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 649.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 2,
-					"type": "text"
-				}
 			]
 		}
 	],

@@ -121,17 +121,19 @@
 				<section class="tab active">
 					  <form action="#" class="shopping-flow__form">
 					  	<fieldset>
-					  		<div class="form-row">
+					  		<div class="form-row valid">
 					  			<label class='label' for="input01">Мобильный телефон:</label>
 					  			<label class="input-wrap">
 					  				<input type="text" id="input01" placeholder="38 (***)- ***-**-**"/>
 					  			</label>
+					  			<span class="validation-text">Правильно</span>
 					  		</div>
-					  		<div class="form-row">
+					  		<div class="form-row error">
 					  			<label class='label' for="input02">ФИО:</label>
 					  			<label class="input-wrap">
 					  				<input type="text" id="input02" placeholder="Ваше имя"/>
 					  			</label>
+					  			<span class="validation-text">Ошибка</span>
 					  		</div>
 					  		<div class="form-row">
 					  			<label class='label' for="input03">Электронный адрес:</label>
@@ -172,8 +174,11 @@
 					  				<li class="radio-list__item"><input class="radio-btn" type="radio" name="group2" id="rad06"><label for="rad06" class="radio-btn">Безналичная оплата с НДС</label></li>
 					  			</ul>
 					  		</div>
-					  		<div class="form-right-row">
-					  			<a href="#" class="form-link">Добавить комментарий к заказу</a>
+					  		<div class="form-right-row add-comment">
+					  			<a href="#" class="form-link add-comment__link">Добавить комментарий к заказу</a>
+					  			<label class="add-comment__field">
+									<textarea placeholder="Add comment here"></textarea>
+								</label>
 					  		</div>
 					  		<div class="form-controls">
 					  			<div class="blue-btn">
@@ -238,8 +243,11 @@
 					  				<li class="radio-list__item"><input class="radio-btn" type="radio" name="group2" id="rad206"><label for="rad206" class="radio-btn">Безналичная оплата с НДС</label></li>
 					  			</ul>
 					  		</div>
-					  		<div class="form-right-row">
-					  			<a href="#" class="form-link">Добавить комментарий к заказу</a>
+					  		<div class="form-right-row add-comment">
+					  			<a href="#" class="form-link add-comment__link">Добавить комментарий к заказу</a>
+								<label class="add-comment__field">
+									<textarea placeholder="Leave your review"></textarea>
+								</label>
 					  		</div>
 					  		<div class="form-controls">
 					  			<div class="blue-btn">
@@ -444,7 +452,7 @@
 		<strong class="short-menu__logo">
 			<a href="#"><img src="img/short-menu__logo.png" alt=""></a>
 		</strong>
-		<a href="#" class="mini-cart__opener">Ваша корзина</a>
+		<a href="#" class="mini-cart__opener addToCart-target">Ваша корзина</a>
 		<a href="#" class="compare-btn"><span class="compare-btn__ico">compare</span>5</a>
 		<ul class="nav__list">
 			<li class="nav__list-item">

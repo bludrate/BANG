@@ -569,7 +569,8 @@ h2 {
   height: 400px;
 }
 
-.gray-btn {
+.gray-btn,
+.product__readmore-btn {
   display: inline-block;
   vertical-align: top;
   height: 36px;
@@ -589,23 +590,28 @@ h2 {
   transition: background 0.1s, color 0.1s, box-shadow 0.1s;
 }
 
-.gray-btn .btn-ico {
+.gray-btn .btn-ico,
+.product__readmore-btn .btn-ico {
   float: left;
   margin: 2px 9px 0 0;
 }
 
 .gray-btn:hover,
-.gray-btn:active {
+.product__readmore-btn:hover,
+.gray-btn:active,
+.product__readmore-btn:active {
   background: #fafafa;
   color: #a9abad;
 }
 
-.gray-btn:active {
+.gray-btn:active,
+.product__readmore-btn:active {
   -webkit-box-shadow: 0 0 2px rgba(0,0,0,0.8) inset;
   box-shadow: 0 0 2px rgba(0,0,0,0.8) inset;
 }
 
-.gray-btn input {
+.gray-btn input,
+.product__readmore-btn input {
   position: absolute;
   right: 0;
   top: 0;
@@ -1364,6 +1370,29 @@ input.checkbox:checked + .checkbox span {
   color: #1f2225;
 }
 
+.valid .input-wrap {
+  border-color: #27ae70;
+}
+
+.error .input-wrap {
+  border-color: #f60;
+}
+
+.validation-text {
+  display: block;
+  padding: 6px 0 0 182px;
+  font-size: 14px;
+  line-height: 15px;
+}
+
+.valid .validation-text {
+  color: #27ae70;
+}
+
+.error .validation-text {
+  color: #f60;
+}
+
 .form-link {
   color: #858585;
   font-size: 18px;
@@ -1531,6 +1560,24 @@ select.select {
 .select-dropdown li.active a:hover {
   color: #1f2225;
   background-color: #bfdef9;
+}
+
+.add-to-cart-ico {
+  width: 170px;
+  height: 170px;
+  top: 30%;
+  position: fixed;
+  left: 50%;
+  margin-left: -85px;
+  z-index: 200;
+  opacity: 0;
+}
+
+.add-to-cart-ico img {
+  border-radius: 10%;
+  width: 100%;
+  height: 100%;
+  vertical-align: top;
 }
 
 .top-panel {
@@ -2332,6 +2379,20 @@ select.select {
   text-transform: uppercase;
   margin: 0 0 11px;
   color: #363b3f;
+  position: relative;
+  z-index: 2;
+}
+
+.product__title:before {
+  content: '';
+  position: absolute;
+  left: 20px;
+  top: 50%;
+  right: 20px;
+  height: 0;
+  z-index: -1;
+  -webkit-box-shadow: 0 0 60px 26px #fff;
+  box-shadow: 0 0 60px 26px #fff;
 }
 
 .product_w2 .product__title {
@@ -2371,9 +2432,12 @@ select.select {
   margin: 0 0 0 15px;
 }
 
+.product__visual {
+  text-align: right;
+}
+
 .product__visual img {
-  width: 100%;
-  height: auto;
+  vertical-align: top;
 }
 
 .product__ico {
@@ -2463,6 +2527,7 @@ select.select {
   font-size: 17px;
   line-height: 18px;
   text-align: left;
+  margin-bottom: 10px;
 }
 
 .product__compare-btn:hover {
@@ -2475,6 +2540,15 @@ select.select {
   cursor: default;
   padding-left: 60px;
   background-position: 26px 2px;
+}
+
+.product__readmore-btn {
+  width: 157px;
+  font-size: 13px;
+}
+
+.h-product-list .product__readmore-btn {
+  width: 141px;
 }
 
 .h-product-list {
@@ -4438,11 +4512,12 @@ td.compare-list__brand {
   right: 0;
   bottom: 0;
   overflow: hidden;
+  text-align: right;
 }
 
 .big-news__visual img {
-  width: 100%;
-  height: auto;
+  width: auto;
+  vertical-align: top;
   min-height: 100%;
 }
 
@@ -5394,6 +5469,36 @@ td.compare-list__brand {
   float: left;
 }
 
+.add-review__btn {
+  height: 52px;
+  width: 90px;
+  float: right;
+  margin: 0 0 0 16px;
+  font-size: 16px;
+  line-height: 52px;
+  min-width: 0;
+}
+
+.add-review__name-field {
+  border: 1px solid #eaeaea;
+  padding: 0 5px 0 19px;
+  cursor: text;
+  display: block;
+  overflow: hidden;
+  margin: 0 0 10px;
+}
+
+.add-review__name-field input {
+  height: 52px;
+  line-height: 52px;
+  border: 0;
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  background: none;
+  font: 18px/52px "helveticaneuecyrlight", helvetica, arial, sans-serif;
+}
+
 .add-review__field {
   border: 1px solid #eaeaea;
   padding: 0 5px 0 19px;
@@ -5592,4 +5697,42 @@ td.compare-list__brand {
   margin: 0 -17px 0 -13px;
   padding: 21px 20px 0px 22px;
   border-top: 1px solid #1fa3ff;
+}
+
+.add-comment.active .add-comment__link {
+  display: none;
+}
+
+.add-comment.active .add-comment__field {
+  display: block;
+}
+
+.add-comment__field {
+  border: 1px solid #eaeaea;
+  padding: 0 5px 0 19px;
+  cursor: text;
+  display: block;
+  overflow: hidden;
+  display: none;
+}
+
+.add-comment__field textarea {
+  height: 52px;
+  padding: 0;
+  margin: 0;
+  border: none;
+  width: 100%;
+  resize: none;
+  background: none;
+  -webkit-transition: padding 0.3s, height 0.3s, line-height 0.3s;
+  -o-transition: padding 0.3s, height 0.3s, line-height 0.3s;
+  transition: padding 0.3s, height 0.3s, line-height 0.3s;
+  font: 18px/52px "helveticaneuecyrlight", helvetica, arial, sans-serif;
+}
+
+.add-comment__field textarea:focus {
+  padding: 10px 0 5px;
+  height: 200px;
+  line-height: 20px;
+  font-size: 15px;
 }

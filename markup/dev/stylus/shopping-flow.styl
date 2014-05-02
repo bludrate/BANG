@@ -49,3 +49,36 @@
 		border-top: 1px solid $blue;
 	}
 }
+.add-comment {
+	&.active &__link {
+		display: none;
+	}
+	&.active &__field{
+		display: block;
+	}
+	&__field {
+		border: 1px solid $borderGray;
+		padding: 0 5px 0 19px;
+		cursor: text;
+		display: block;
+		overflow: hidden;
+		display: none;
+		textarea {
+			height: 52px;
+			padding: 0;
+			margin: 0;
+			border: none;
+			width: 100%;
+			resize:none;
+			background: none;
+			transition: padding 0.3s, height 0.3s, line-height 0.3s;
+			font: 18px/52px "helveticaneuecyrlight", helvetica, arial, sans-serif;
+			&:focus {
+				padding: 10px 0 5px;
+				height: 200px;
+				line-height: 20px;
+				font-size: 15px;
+			}
+		}
+	}
+}
