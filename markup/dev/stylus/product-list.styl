@@ -15,6 +15,29 @@
 		}
 	}
 }
+.product-gallery {
+	&-holder {
+		max-width: $maxWidth;
+		margin: 0 auto;
+		overflow: hidden;
+		position: relative;
+	}
+	.product-list {
+		max-width: 99999px;
+	}
+	&__prev,
+	&__next {
+		display: none;
+	}
+}
+.product-list-holder {
+	overflow: hidden;
+	max-width: $maxWidth;
+	margin: 0 auto;
+	.product-list {
+		max-width:99999px;
+	}
+}
 .product {
 	overflow: hidden;
 	position: relative;
