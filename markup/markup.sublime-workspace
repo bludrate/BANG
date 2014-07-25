@@ -4,6 +4,10 @@
 		"selected_items":
 		[
 			[
+				"add",
+				"addToCart"
+			],
+			[
 				"pop",
 				"popupGallery"
 			],
@@ -192,6 +196,24 @@
 	},
 	"file_history":
 	[
+		"/E/Dropbox/work/BANG/markup/dev/html_blocks/product-page.html",
+		"/E/Dropbox/work/BANG/markup/dev/html_blocks/actual.html",
+		"/E/Dropbox/work/BANG/markup/dev/dev_js/add-comment&main.js",
+		"/E/Dropbox/work/BANG/markup/dev/html_blocks/shopping-flow.html",
+		"/E/Dropbox/work/BANG/markup/dev/html_blocks/short-menu.html",
+		"/E/Dropbox/work/BANG/markup/dev/stylus/news.styl",
+		"/E/Dropbox/work/BANG/markup/dev/stylus/product-list.styl",
+		"/E/Dropbox/work/BANG/markup/dev/stylus/product-page.styl",
+		"/E/Dropbox/work/BANG/markup/dev/stylus/main.styl",
+		"/E/Dropbox/work/BANG/markup/dev/stylus/shopping-flow.styl",
+		"/E/Dropbox/work/BANG/markup/dev/stylus/ui.styl",
+		"/E/Dropbox/work/PLAN-ON-LINE/markup/dev/stylus/main.styl",
+		"/E/Dropbox/work/Clever/markup/dev/stylus/main.styl",
+		"/E/Dropbox/work/BANG/markup/dev/html_blocks/header.html",
+		"/E/Dropbox/work/BANG/markup/dev/html_blocks/product-list.html",
+		"/E/Dropbox/work/BANG/markup/dev/html_blocks/last-news.html",
+		"/E/Dropbox/work/BANG/markup/dev/dev_js/add-to-cart&main.js",
+		"/E/Dropbox/work/BANG/markup/dev/pages/product-page.html",
 		"/D/Dropbox/work/BANG/markup/dev/dev_js/fixes&ie.js",
 		"/D/Dropbox/work/BANG/markup/dev/html_blocks/bottom.html",
 		"/D/Dropbox/work/BANG/markup/dev/html_blocks/head.html",
@@ -260,21 +282,15 @@
 		"/E/Dropbox/KZTC-CAB/markup/dev/stylus/enter.styl",
 		"/E/Dropbox/KZTC-CAB/markup/dev/stylus/footer.styl",
 		"/E/Dropbox/work/BANG/markup/dev/stylus/menu.styl",
-		"/E/Dropbox/work/BANG/markup/dev/stylus/product-page.styl",
 		"/E/Dropbox/work/BANG/markup/dev/stylus/breadcrumbs.styl",
 		"/E/Dropbox/work/BANG/markup/dev/stylus/variables.styl",
 		"/E/Dropbox/work/BANG/markup/dev/stylus/tabset.styl",
-		"/E/Dropbox/work/BANG/markup/dev/stylus/main.styl",
 		"/E/Dropbox/work/BANG/markup/dev/html_blocks/head.html",
 		"/E/Dropbox/work/BANG/markup/dev/stylus/normalize.styl",
-		"/E/Dropbox/work/BANG/markup/dev/pages/product-page.html",
-		"/E/Dropbox/work/BANG/markup/dev/html_blocks/product-page.html",
 		"/E/Dropbox/work/BANG/markup/dev/stylus/styles.styl",
 		"/E/Dropbox/work/BANG/markup/dev/stylus/product.styl",
 		"/E/Dropbox/work/BANG/markup/dev/stylus/search-results.styl",
-		"/E/Dropbox/work/BANG/markup/dev/stylus/ui.styl",
 		"/E/Dropbox/work/BANG/markup/dev/stylus/sale.styl",
-		"/E/Dropbox/work/BANG/markup/dev/stylus/product-list.styl",
 		"/E/Dropbox/work/BANG/markup/dev/html_blocks/sale.html",
 		"/E/Dropbox/work/BANG/markup/dev/html_blocks/products-catalogue.html",
 		"/E/Dropbox/work/BANG/markup/dev/dev_js/menu_expand&main.js",
@@ -307,29 +323,18 @@
 		"/E/Dropbox/work/BANG/markup/dev/html_blocks/compare.html",
 		"/E/Dropbox/work/BANG/markup/dev/dev_js/compare&main.js",
 		"/E/Dropbox/work/BANG/markup/prod/basket.html",
-		"/E/Dropbox/work/BANG/markup/dev/dev_js/short-menu&main.js",
-		"/E/Dropbox/work/BANG/markup/dev/dev_js/init&main.js",
-		"/E/Dropbox/work/BANG/markup/dev/pages/brand.html",
-		"/E/Dropbox/work/BANG/markup/dev/stylus/popups.styl",
-		"/E/Dropbox/work/BANG/markup/dev/stylus/delivery.styl",
-		"/E/Dropbox/work/BANG/markup/dev/stylus/colors.styl",
-		"/E/Dropbox/work/BANG/markup/dev/stylus/products-catalogue.styl",
-		"/E/Dropbox/work/BANG/markup/dev/html_blocks/feedback-popup.html",
-		"/E/Dropbox/work/BANG/markup/dev/pages/delivery.html",
-		"/E/Dropbox/work/BANG/markup/dev/html_blocks/delivery.html",
-		"/E/Dropbox/work/BANG/markup/dev/pages/products-catalogue.html",
-		"/E/Dropbox/work/BANG/markup/dev/html_blocks/product-catalogue.html",
-		"/E/Dropbox/work/BANG/markup/dev/dev_js/ui-elems&main.js"
+		"/E/Dropbox/work/BANG/markup/dev/dev_js/short-menu&main.js"
 	],
 	"find":
 	{
-		"height": 43.0
+		"height": 34.0
 	},
 	"find_in_files":
 	{
 		"height": 392.0,
 		"where_history":
 		[
+			"*.styl",
 			"*.html",
 			"*.styl",
 			"*.html",
@@ -343,6 +348,11 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"-9999px",
+			"readm",
+			"btn",
+			"compa",
+			"big-news",
 			"input",
 			"concat",
 			"stylus",
@@ -465,12 +475,7 @@
 			".fr.ie8 .mood-page_winter-car-storage",
 			"Hockey with the Choi Family For Eddie Choi, hockey means everything. He’s passed down his love of the game to his kids. Watch their story.",
 			"\"title\":\"some\"",
-			"255",
-			"236px",
-			"336px",
-			"8px",
-			"span",
-			"section"
+			"255"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -534,7 +539,7 @@
 		"cols":
 		[
 			0.0,
-			0.549156259292,
+			0.474281051305,
 			1.0
 		],
 		"rows":
@@ -589,7 +594,7 @@
 	"show_open_files": true,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 217.0,
+	"side_bar_width": 164.0,
 	"status_bar_visible": true,
 	"template_settings":
 	{

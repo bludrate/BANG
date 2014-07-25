@@ -21,7 +21,9 @@ ui.productGalery = function () {
 
 		sly = (new Sly($holder,{
 			horizontal: 1,
+			touchDragging: 1,
 			speed: 300,
+			releaseSwing:1,
 			forward: $next,
 			backward: $prev,
 			moveBy: $holder.width()
