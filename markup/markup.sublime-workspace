@@ -196,6 +196,7 @@
 	},
 	"file_history":
 	[
+		"/D/Dropbox/work/BANG/markup/dev/dev_js/product-gallery&main.js",
 		"/E/Dropbox/work/BANG/markup/dev/html_blocks/product-page.html",
 		"/E/Dropbox/work/BANG/markup/dev/html_blocks/actual.html",
 		"/E/Dropbox/work/BANG/markup/dev/dev_js/add-comment&main.js",
@@ -322,8 +323,7 @@
 		"/E/Dropbox/work/BANG/markup/dev/html_blocks/brand.html",
 		"/E/Dropbox/work/BANG/markup/dev/html_blocks/compare.html",
 		"/E/Dropbox/work/BANG/markup/dev/dev_js/compare&main.js",
-		"/E/Dropbox/work/BANG/markup/prod/basket.html",
-		"/E/Dropbox/work/BANG/markup/dev/dev_js/short-menu&main.js"
+		"/E/Dropbox/work/BANG/markup/prod/basket.html"
 	],
 	"find":
 	{
@@ -594,7 +594,7 @@
 	"show_open_files": true,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 164.0,
+	"side_bar_width": 323.0,
 	"status_bar_visible": true,
 	"template_settings":
 	{

@@ -297,7 +297,7 @@ ui.productGalery = function () {
 		}).init());
 
 		$(window).resize(function () {
-			$list.add($elems).css('width','auto');
+			$list.add($elems).removeAttr('style');
 			$elems.each(function(){
 				$(this).width($(this).width());
 			});
